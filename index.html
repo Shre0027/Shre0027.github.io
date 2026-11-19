@@ -152,6 +152,9 @@ header.scrolled{border-bottom-color:var(--line)}
 .grow{transform-box:fill-box;transform-origin:left;}
 .in .grow{animation:growx 1s cubic-bezier(.2,.7,.2,1) .2s both}
 @keyframes growx{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+.growy{transform-box:fill-box;transform-origin:top}
+.in .growy{animation:growy 1s cubic-bezier(.2,.7,.2,1) .2s both}
+@keyframes growy{from{transform:scaleY(.06)}to{transform:scaleY(1)}}
 
 /* Demo */
 .demo h4,.calc h4{font-size:clamp(21px,2vw,25px);font-weight:800}
@@ -387,7 +390,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       </div>
       <div class="tldr">
         <div class="tl rv"><span class="n">01 · What I do</span><h3>Turn questions into clear rules</h3><p>When a team asks "what does this number mean?", I find the answer, write it down as a business rule, and get everyone building from the same definition.</p></div>
-        <div class="tl rv"><span class="n">02 · Where I've done it</span><h3>Retail tech, manufacturing, public data</h3><p>Retail technology for CVS Health stores, operations reporting at a manufacturer in Mumbai, and two public projects in healthcare pricing and trade policy.</p></div>
+        <div class="tl rv"><span class="n">02 · Where I've done it</span><h3>Retail tech, manufacturing, public data</h3><p>Retail technology for CVS Health stores, operations reporting at a manufacturer in Mumbai, and three public projects in healthcare pricing, trade policy and transit data.</p></div>
         <div class="tl rv"><span class="n">03 · What I want next</span><h3>A BA or BSA role with real systems</h3><p>Business Analyst, Business Systems Analyst or Data Analyst. Anywhere in the US: remote, hybrid or onsite, and open to relocation.</p></div>
       </div>
     </div>
@@ -398,8 +401,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <div class="wrap">
       <div class="sec-head rv">
         <p class="eyebrow">Selected work</p>
-        <h2 id="work-h">Three stories, each with a before and an after.</h2>
-        <p class="lede">One from my job, told with illustrative data, and two public projects you can open and check yourself.</p>
+        <h2 id="work-h">Four stories, each with a before and an after.</h2>
+        <p class="lede">One from my job, told with illustrative data, and three public projects you can open and check yourself.</p>
       </div>
 
       <!-- Featured: device count -->
@@ -544,6 +547,55 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
                 <text class="v a" x="312" y="74">191%</text>
               </svg>
               <p class="sowhat" style="margin-top:14px"><b>So what?</b>Commercial plans typically pay almost twice the Medicare rate for the same care.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- MBTA -->
+      <article class="case rv" id="mbta-ridership-gap" aria-labelledby="c4">
+        <div class="case-head"><span class="eyebrow">04 · Public project · Transit data</span><div class="tags"><span class="tag2">Data reconciliation</span><span class="tag2">Python · pandas</span><span class="tag2">Data quality log</span></div></div>
+        <div class="case-body">
+          <div class="case-text">
+            <h3 id="c4">The Blue Line Gap</h3>
+            <p class="sub">The MBTA publishes two official ridership datasets that disagree by up to 23% on the Blue Line. Which one is right, and why do they differ?</p>
+            <div class="ba">
+              <div class="before"><span class="k">Before</span>A public question on the MBTA's developer forum, with the gap blamed on growth in East Boston.</div>
+              <div class="after"><span class="k">After</span>A station-by-station reconciliation that traces the gap to two downtown transfer stations and two unflagged method changes.</div>
+            </div>
+            <ul class="did">
+              <li><span>Reconciled <b>3 MBTA datasets across 6 fall seasons</b> (2017–2025), reproducing the forum's figures exactly.</span></li>
+              <li><span>Found that <b>about a third of Blue Line boardings</b> happen at State and Government Center, where transferring riders never tap.</span></li>
+              <li><span>Logged 6 data quality issues and wrote 4 recommendations for the data owners.</span></li>
+            </ul>
+            <div class="links2"><a href="https://shre0027.github.io/mbta-ridership-gap/">Open the project ↗</a><a href="https://github.com/Shre0027/mbta-ridership-gap">See the code ↗</a></div>
+          </div>
+          <div class="case-vis">
+            <div class="chart">
+              <p class="eyebrow" style="margin-bottom:10px">State station, Blue Line, Fall 2025</p>
+              <svg viewBox="0 0 360 96" role="img" aria-label="At State station, about 900 gate taps are credited to the Blue Line, but the trip model counts about 12,100 boardings.">
+                <text x="0" y="26">Gate taps</text>
+                <rect class="grow" x="92" y="12" width="16" height="20" rx="4" fill="#cfcabf"/>
+                <text class="v" x="118" y="28">895</text>
+                <text x="0" y="72">Boardings</text>
+                <rect class="grow" x="92" y="58" width="210" height="20" rx="4" fill="#2b45e8"/>
+                <text class="v a" x="312" y="74">12,106</text>
+              </svg>
+              <p class="sowhat" style="margin-top:14px"><b>So what?</b>Riders switching from the Orange Line board here without tapping. A count built from taps can't see them, so it has to guess.</p>
+            </div>
+            <div class="chart">
+              <p class="eyebrow" style="margin-bottom:10px">How far the monthly number sits below</p>
+              <svg viewBox="0 0 360 132" role="img" aria-label="The monthly dataset undercounts the Blue Line every year: 15 percent in 2018, 11 percent in 2019, 23 percent in 2023, 22 percent in 2024 and 20 percent in 2025.">
+                <line x1="20" y1="16" x2="350" y2="16" stroke="#cfcabf"/>
+                <rect class="growy" x="38" y="16" width="34" height="45" rx="4" fill="#2b45e8"/>
+                <rect class="growy" x="102" y="16" width="34" height="32" rx="4" fill="#2b45e8"/>
+                <rect class="growy" x="166" y="16" width="34" height="70" rx="4" fill="#2b45e8"/>
+                <rect class="growy" x="230" y="16" width="34" height="66" rx="4" fill="#2b45e8"/>
+                <rect class="growy" x="294" y="16" width="34" height="59" rx="4" fill="#2b45e8"/>
+                <text x="55" y="128" text-anchor="middle">2018</text><text x="119" y="128" text-anchor="middle">2019</text><text x="183" y="128" text-anchor="middle">2023</text><text x="247" y="128" text-anchor="middle">2024</text><text x="311" y="128" text-anchor="middle">2025</text>
+                <text x="55" y="76" text-anchor="middle">-15%</text><text x="119" y="63" text-anchor="middle">-11%</text><text x="183" y="101" text-anchor="middle">-23%</text><text x="247" y="97" text-anchor="middle">-22%</text><text x="311" y="90" text-anchor="middle">-20%</text>
+              </svg>
+              <p class="sowhat" style="margin-top:14px"><b>So what?</b>The gap shows up every season, always in the same direction. That's a rule difference, not noise.</p>
             </div>
           </div>
         </div>
@@ -865,7 +917,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   const A=["Business Analyst, Business Systems Analyst, Systems Analyst and Data Analyst roles: work where I connect what the business needs with the systems and data underneath.",
     "Anywhere in the US: remote, hybrid or onsite. I'm based in Boston and open to relocation.",
     "SQL (DBeaver, DuckDB), Excel, Power BI and Tableau for data. Rally, ServiceNow, Kibana and REST APIs (Postman, Bruno) for systems work. Python and pandas for bigger analysis.",
-    "Retail technology through my CVS Health client work, manufacturing and supply chain from Accupack, and public projects in healthcare pricing and trade policy.",
+    "Retail technology through my CVS Health client work, manufacturing and supply chain from Accupack, and public projects in healthcare pricing, trade policy and transit data.",
     "With two weeks' notice."];
   const qs=[...document.querySelectorAll('[data-q]')], qEl=document.getElementById('qa-q'), tEl=document.getElementById('qa-text'); let tm=null;
   function say(i){ clearInterval(tm); qEl.textContent=qs[i].textContent; const full=A[i];
