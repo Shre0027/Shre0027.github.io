@@ -92,6 +92,7 @@ header.scrolled{border-bottom-color:var(--line)}
 .idcard{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 1px 0 rgba(0,0,0,.02),0 24px 48px -28px rgba(20,20,40,.25);transform:rotate(1.2deg);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
 .idcard:hover{transform:rotate(0deg) translateY(-4px)}
 .photo{aspect-ratio:4/4.3;border-radius:14px;background:linear-gradient(160deg,#e8ebff 0%,#f6f1e6 100%);display:grid;place-items:center;position:relative;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
 .photo .mono{font-family:var(--f-display);font-weight:800;font-size:clamp(84px,10vw,128px);letter-spacing:-.05em;color:var(--accent)}
 .photo .tag{position:absolute;left:12px;bottom:12px;font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;background:rgba(255,255,255,.85);padding:5px 9px;border-radius:999px;color:var(--muted)}
 .idrows{display:grid;margin-top:16px}
@@ -285,6 +286,7 @@ header.scrolled{border-bottom-color:var(--line)}
 .path div{padding:14px 10px 0 0}
 .path b{display:block;font-family:var(--f-display);font-size:17px}
 .path span{font-size:13.5px;color:var(--muted)}
+.about-pic{width:100%;max-width:340px;aspect-ratio:1/1;object-fit:cover;object-position:50% 25%;border-radius:20px;border:1px solid var(--line);margin-bottom:18px;display:block}
 .facts{display:grid;gap:12px}
 .fact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;grid-template-columns:112px 1fr;gap:12px;font-size:15.5px}
 .fact span:first-child{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:3px}
@@ -357,7 +359,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           </div>
         </div>
         <aside class="idcard" aria-label="Profile summary">
-          <div class="photo"><span class="mono" aria-hidden="true">ST</span><span class="tag">Boston, MA</span></div>
+          <div class="photo"><img src="shreyas.jpg" width="720" height="774" alt="Shreyas Tayde, smiling, in a navy suit" fetchpriority="high"><span class="tag">Boston, MA</span></div>
           <div class="idrows">
             <div><span>Now</span><span>Jr. Technical Analyst, supporting CVS Health</span></div>
             <div><span>Looking for</span><span>BA · BSA · Data Analyst</span></div>
@@ -704,6 +706,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div class="rv">
           <p class="eyebrow">About me</p>
           <h2 id="ab-h" style="margin:12px 0 26px">Hi, I'm Shreyas.</h2>
+          <img class="about-pic" src="shreyas.jpg" width="720" height="774" alt="" loading="lazy">
           <div class="facts">
             <div class="fact"><span>From</span><span>Nashik, India. Now in Boston.</span></div>
             <div class="fact"><span>Off the clock</span><span>Cricket, slice-of-life anime, and short drives along the Boston waterfront.</span></div>
