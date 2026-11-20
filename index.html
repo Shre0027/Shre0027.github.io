@@ -3,932 +3,800 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shreyas Tayde</title>
-<meta name="description" content="Shreyas Tayde, business analyst in Boston. I make dashboards answer the right question: clear business rules, connected systems and data people can trust.">
-<meta name="theme-color" content="#fbfaf7">
-<link rel="canonical" href="https://shre0027.github.io/">
+<title>Shreyas Tayde · Business Analyst, Boston</title>
+<meta name="description" content="Shreyas Tayde, business analyst in Boston. I find where the numbers stop agreeing: clear business rules, connected systems and data people can trust. Open to BA, BSA and Data Analyst roles.">
+<meta name="theme-color" content="#0b0c10">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://shre0027.github.io/">
 <meta property="og:title" content="Shreyas Tayde · Business Analyst">
-<meta property="og:description" content="I make dashboards answer the right question. Business analyst in Boston, open to BA, BSA and Data Analyst roles.">
+<meta property="og:description" content="I find where the numbers stop agreeing. Business analyst in Boston, open to BA, BSA and Data Analyst roles.">
 <meta property="og:image" content="https://shre0027.github.io/og.png">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Shreyas Tayde, business analyst: I make dashboards answer the right question.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Shreyas Tayde, business analyst in Boston.">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23151515'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='700' font-size='26' fill='%23fbfaf7' text-anchor='middle'%3EST%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://shre0027.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b0c10' stroke='%23f39a1e' stroke-width='4'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='900' font-size='24' fill='%23f1eee8' text-anchor='middle'%3EST%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Shreyas Tayde","jobTitle":"Business Analyst","address":{"@type":"PostalAddress","addressLocality":"Boston","addressRegion":"MA","addressCountry":"US"},"alumniOf":"University of Massachusetts Boston","url":"https://shre0027.github.io/","sameAs":["https://www.linkedin.com/in/shreyastayde","https://github.com/Shre0027"]}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-/* Layout idea: a clean editorial page read top to bottom by a recruiter first, a hiring manager second.
-   White paper, near-black ink, one cobalt accent used only for the thing you should look at. */
+@font-face{font-family:"Archivo";src:url(fonts/archivo.woff2) format("woff2-variations"),url(fonts/archivo.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(fonts/instrument-serif-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"JetBrains Mono";src:url(fonts/jbm-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"JetBrains Mono";src:url(fonts/jbm-500.woff2) format("woff2");font-weight:500;font-display:swap}
 :root{
-  --paper:#fbfaf7;
-  --card:#ffffff;
-  --ink:#151515;
-  --muted:#5d5b56;
-  --line:#e7e3da;
-  --accent:#2b45e8;
-  --accent-soft:#eceefe;
-  --good:#1f8a5b; --bad:#c43d3d;
-  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",sans-serif;
-  --f-body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
-  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
-  color-scheme:light;
+  --bg:#0b0c10; --bg2:#111319; --card:#14161d; --line:rgba(241,238,232,.10); --line2:rgba(241,238,232,.18);
+  --ink:#f1eee8; --mute:#9a9ea8; --dim:#6c707a;
+  --red:#e8473b; --orange:#f39a1e; --blue:#4c8dff; --green:#2fbf71;
+  --disp:"Archivo",system-ui,sans-serif; --serif:"Instrument Serif",Georgia,serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --ease:cubic-bezier(.2,.8,.2,1);
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
-.wrap{max-width:1160px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
-h1,h2,h3,h4{font-family:var(--f-display);margin:0;text-wrap:balance;line-height:1.05;letter-spacing:-.02em}
-h2{font-size:clamp(34px,4.6vw,56px);font-weight:800}
-h3{font-size:clamp(24px,2.6vw,32px);font-weight:800}
-p{margin:0}
-.eyebrow{font-family:var(--f-mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.lede{color:var(--muted);max-width:60ch;font-size:clamp(17px,1.4vw,19px)}
-.accent{color:var(--accent)}
-section{padding:clamp(72px,10vw,128px) 0 0}
-.sec-head{display:grid;gap:14px;margin-bottom:clamp(32px,4vw,48px);max-width:780px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--disp);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--orange);color:#111}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#111;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:12px}
+:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1240px,100% - 48px);margin-inline:auto}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.serif{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0}
 
-/* ---------- Nav ---------- */
-header{position:sticky;top:0;z-index:30;background:rgba(251,250,247,.86);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid transparent;transition:border-color .3s}
-header.scrolled{border-bottom-color:var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:18px;letter-spacing:-.01em}
-.logo .mk{width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:12.5px;letter-spacing:0}
-.links{display:flex;align-items:center;gap:clamp(14px,2.6vw,30px);list-style:none;margin:0;padding:0}
-.links a{text-decoration:none;font-size:15px;color:var(--muted);transition:color .2s}
-.links a:hover{color:var(--ink)}
-.links .cv{color:var(--paper);background:var(--ink);padding:8px 14px;border-radius:999px;font-weight:500}
-.links .cv:hover{color:var(--paper);background:var(--accent)}
-@media (max-width:720px){ .links li.hide-sm{display:none} }
+/* grain + cursor glow */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:90;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.glow{position:fixed;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;pointer-events:none;z-index:1;background:radial-gradient(circle,rgba(243,154,30,.10),rgba(76,141,255,.05) 40%,transparent 70%);transform:translate3d(-999px,-999px,0);transition:opacity .4s;will-change:transform}
+@media (hover:none){.glow{display:none}}
 
-/* ---------- Buttons ---------- */
-.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;font-size:15.5px;text-decoration:none;border:1.5px solid var(--ink);transition:transform .2s,background .2s,color .2s,border-color .2s;cursor:pointer;font-family:var(--f-body);background:transparent;color:var(--ink)}
-.btn:hover{transform:translateY(-2px)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-.btn.primary:hover{background:#1f36c9;border-color:#1f36c9}
-.btn .ar{transition:transform .2s}.btn:hover .ar{transform:translateX(4px)}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:transform .5s var(--ease),background .3s}
+.nav.hide{transform:translateY(-100%)}
+.nav.solid{background:rgba(11,12,16,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:.01em}
+.logo i{width:30px;height:30px;border-radius:50%;background:conic-gradient(var(--red) 0 25%,var(--orange) 0 50%,var(--blue) 0 75%,var(--green) 0);display:grid;place-items:center;font-style:normal}
+.logo i::after{content:"ST";width:24px;height:24px;border-radius:50%;background:var(--bg);display:grid;place-items:center;font-size:10px;font-weight:800}
+.nav ul{display:flex;gap:30px;list-style:none;font-size:14px;color:var(--mute)}
+.nav ul a{position:relative;transition:color .2s}
+.nav ul a:hover{color:var(--ink)}
+.nav ul a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:2px;background:var(--orange);transition:right .3s var(--ease)}
+.nav ul a:hover::after{right:0}
+.btn{display:inline-flex;align-items:center;gap:10px;height:46px;padding:0 22px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid var(--line2);transition:background .25s,color .25s,border-color .25s;will-change:transform}
+.btn.solid{background:var(--ink);color:#111;border-color:var(--ink)}
+.btn.solid:hover{background:var(--orange);border-color:var(--orange)}
+.btn:not(.solid):hover{border-color:var(--ink)}
+.btn svg{width:16px;height:16px;transition:transform .25s var(--ease)}
+.btn:hover svg{transform:translate(3px,-3px)}
+.nav .btn{height:38px;padding:0 16px;font-size:13px}
+@media (max-width:760px){.nav ul{display:none}}
 
-/* ---------- Hero ---------- */
-.hero{padding:clamp(48px,8vw,104px) 0 0}
-.hero-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:clamp(32px,5vw,72px);align-items:center}
-@media (max-width:900px){ .hero-grid{grid-template-columns:1fr} }
-.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:14px;color:var(--muted)}
-.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(31,138,91,.5);animation:ping 2.4s infinite}
-@keyframes ping{0%{box-shadow:0 0 0 0 rgba(31,138,91,.45)}70%{box-shadow:0 0 0 9px rgba(31,138,91,0)}100%{box-shadow:0 0 0 0 rgba(31,138,91,0)}}
-.hero h1{font-size:clamp(48px,7.4vw,100px);font-weight:800;letter-spacing:-.045em;line-height:.98;margin:26px 0 26px}
-.hero h1 .w{display:inline-block;animation:wordin .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i) * 70ms + 120ms)}
-@keyframes wordin{from{transform:translateY(.35em);opacity:.0001}to{transform:none;opacity:1}}
-.hero h1 .hl{color:var(--accent);position:relative;white-space:nowrap}
-.hero h1 .hl::after{content:"";position:absolute;left:0;right:0;bottom:-.08em;height:.07em;background:var(--accent);border-radius:2px;transform-origin:left;animation:under 1s cubic-bezier(.2,.7,.2,1) 1.1s both}
-@keyframes under{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.hero .lede{max-width:54ch}
-.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:110px 0 70px;overflow:hidden}
+.map{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.55}
+.map path.trk{fill:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.6s var(--ease) forwards}
+.map .stn{fill:var(--bg);stroke:var(--ink);stroke-width:3;opacity:0;animation:fade .6s 2s forwards}
+.map .train{opacity:0;animation:fade .6s 2.4s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fade{to{opacity:1}}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(80% 70% at 30% 50%,rgba(11,12,16,.92),rgba(11,12,16,.55) 60%,rgba(11,12,16,.2));z-index:0;pointer-events:none}
+.hero .wrap{position:relative;z-index:2}
+.status{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid var(--line2);border-radius:999px;background:rgba(11,12,16,.6);backdrop-filter:blur(6px)}
+.status b{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(47,191,113,.6);animation:ping 2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 10px rgba(47,191,113,0)}100%{box-shadow:0 0 0 0 rgba(47,191,113,0)}}
+.name{font-weight:900;font-stretch:125%;font-size:min(13.2vw,210px);line-height:.86;letter-spacing:-.02em;margin:28px 0 0;text-transform:uppercase}
+.name .row{display:flex;align-items:flex-end;gap:.18em;flex-wrap:wrap}
+.name .w{display:inline-flex;overflow:hidden;padding-bottom:.04em}
+.name .ch{display:inline-block;transform:translateY(105%);animation:up 1s var(--ease) forwards}
+.name .dot{color:var(--orange)}
+@keyframes up{to{transform:none}}
+.me{width:clamp(84px,10vw,150px);aspect-ratio:1;border-radius:50%;padding:5px;background:conic-gradient(var(--red) 0 25%,var(--orange) 0 50%,var(--blue) 0 75%,var(--green) 0);flex:none;margin-bottom:.06em;transform:scale(0) rotate(-90deg);animation:pop 1s 1s var(--ease) forwards;position:relative}
+.me img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:50% 28%;border:4px solid var(--bg)}
+@keyframes pop{to{transform:none}}
+.tag{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:end;margin-top:44px}
+.tag h1{font-size:clamp(28px,3.6vw,50px);line-height:1.08;font-weight:600;letter-spacing:-.02em}
+.tag h1 .serif{color:var(--orange);font-size:1.12em}
+.tag p{color:var(--mute);max-width:46ch}
+.tag .acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.fadein{opacity:0;transform:translateY(18px);animation:fin .9s var(--ease) forwards}
+@keyframes fin{to{opacity:1;transform:none}}
+.scrollcue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px}
+.scrollcue span{width:1px;height:42px;background:linear-gradient(var(--ink),transparent);animation:cue 2s infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (max-width:860px){.tag{grid-template-columns:1fr;gap:20px}.scrollcue{display:none}}
 
-.idcard{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 1px 0 rgba(0,0,0,.02),0 24px 48px -28px rgba(20,20,40,.25);transform:rotate(1.2deg);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.idcard:hover{transform:rotate(0deg) translateY(-4px)}
-.photo{aspect-ratio:4/4.3;border-radius:14px;background:linear-gradient(160deg,#e8ebff 0%,#f6f1e6 100%);display:grid;place-items:center;position:relative;overflow:hidden}
-.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
-.photo .mono{font-family:var(--f-display);font-weight:800;font-size:clamp(84px,10vw,128px);letter-spacing:-.05em;color:var(--accent)}
-.photo .tag{position:absolute;left:12px;bottom:12px;font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;background:rgba(255,255,255,.85);padding:5px 9px;border-radius:999px;color:var(--muted)}
-.idrows{display:grid;margin-top:16px}
-.idrows div{display:flex;justify-content:space-between;gap:12px;padding:10px 2px;border-top:1px solid var(--line);font-size:14.5px}
-.idrows span:first-child{color:var(--muted)}
-.idrows span:last-child{text-align:right;font-weight:500}
+/* marquee */
+.marq{border-block:1px solid var(--line);overflow:hidden;padding:20px 0;position:relative;z-index:2;background:var(--bg)}
+.marq .tr{display:flex;width:max-content;animation:mq 38s linear infinite}
+.marq:hover .tr{animation-play-state:paused}
+.marq span{font-weight:800;font-stretch:115%;font-size:clamp(22px,3vw,34px);text-transform:uppercase;letter-spacing:-.01em;padding:0 26px;display:flex;align-items:center;gap:52px;white-space:nowrap;color:var(--ink)}
+.marq span::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--c,var(--orange))}
+.marq span:nth-child(4n+1){--c:var(--red)}.marq span:nth-child(4n+2){--c:var(--orange)}.marq span:nth-child(4n+3){--c:var(--blue)}.marq span:nth-child(4n){--c:var(--green)}
+.marq span:nth-child(odd){-webkit-text-stroke:1px var(--ink);color:transparent}
+@keyframes mq{to{transform:translateX(-50%)}}
 
-/* ---------- Proof strip ---------- */
-.proof{display:grid;grid-template-columns:repeat(4,1fr);margin-top:clamp(56px,7vw,88px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-@media (max-width:760px){ .proof{grid-template-columns:repeat(2,1fr)} }
-.proof div{padding:22px 4px 22px 0}
-.proof b{display:block;font-family:var(--f-display);font-weight:800;font-size:clamp(32px,3.6vw,46px);letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
-.proof span{display:block;margin-top:8px;color:var(--muted);font-size:14.5px;line-height:1.4;max-width:24ch}
+/* sections */
+section{position:relative;z-index:2}
+.sec{padding:120px 0}
+.eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--c,var(--orange))}
+h2.big{font-weight:800;font-stretch:112%;font-size:clamp(40px,6.4vw,92px);line-height:.95;letter-spacing:-.03em;text-transform:uppercase}
+h2.big .serif{text-transform:none;font-size:1.08em;color:var(--orange)}
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.split .w>span{display:inline-block;transform:translateY(105%);transition:transform 1s var(--ease)}
+.split.in .w>span{transform:none}
 
-/* ---------- 30 seconds ---------- */
-.tldr{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-@media (max-width:860px){ .tldr{grid-template-columns:1fr} }
-.tl{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
-.tl .n{font-family:var(--f-mono);font-size:12px;color:var(--accent)}
-.tl h3{font-size:22px;margin:10px 0 10px}
-.tl p{color:var(--muted);font-size:15.5px}
+/* numbers */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.num{padding:56px 28px 50px;border-right:1px solid var(--line);position:relative;overflow:hidden}
+.num:last-child{border-right:0}
+.num::before{content:"";position:absolute;left:0;top:0;height:3px;width:0;background:var(--c);transition:width 1.4s var(--ease)}
+.num.in::before{width:100%}
+.num:nth-child(1){--c:var(--red)}.num:nth-child(2){--c:var(--orange)}.num:nth-child(3){--c:var(--blue)}.num:nth-child(4){--c:var(--green)}
+.num strong{display:block;font-weight:800;font-stretch:105%;font-size:clamp(34px,4.3vw,60px);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.num p{color:var(--mute);font-size:15px;margin-top:14px;max-width:24ch}
+@media (max-width:860px){.nums{grid-template-columns:1fr 1fr}.num:nth-child(2){border-right:0}.num:nth-child(-n+2){border-bottom:1px solid var(--line)}.num{padding:38px 20px}}
 
-/* ---------- Case studies ---------- */
-.case{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;margin-bottom:24px}
-.case-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:16px clamp(20px,3vw,32px);border-bottom:1px solid var(--line)}
-.tags{display:flex;gap:6px;flex-wrap:wrap}
-.tag2{font-size:12.5px;padding:4px 10px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--muted)}
-.case-body{display:grid;grid-template-columns:1fr 1fr}
-@media (max-width:940px){ .case-body{grid-template-columns:1fr} }
-.case-text{padding:clamp(24px,3.4vw,40px)}
-.case-text h3{font-size:clamp(28px,3.2vw,40px)}
-.case-text .sub{color:var(--muted);margin:12px 0 26px;font-size:17px;max-width:52ch}
-.ba{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:22px}
-@media (max-width:520px){ .ba{grid-template-columns:1fr} }
-.ba div{border-radius:14px;padding:16px;font-size:15px;line-height:1.5}
-.ba .before{background:#f6f3ec}
-.ba .after{background:var(--accent-soft)}
-.ba .k{display:block;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
-.ba .before .k{color:var(--muted)} .ba .after .k{color:var(--accent)}
-.did{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.did li{display:grid;grid-template-columns:18px 1fr;gap:10px;font-size:15.5px;line-height:1.5}
-.did li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);margin-top:9px}
-.links2{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
-.links2 a{font-size:14.5px;font-weight:500;text-decoration:none;padding:9px 15px;border-radius:999px;border:1px solid var(--line);transition:border-color .2s,background .2s}
-.links2 a:hover{border-color:var(--ink);background:var(--paper)}
-.case-vis{padding:clamp(24px,3.4vw,40px);background:#fcfbf8;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:22px}
-@media (max-width:940px){ .case-vis{border-left:0;border-top:1px solid var(--line)} }
-.sowhat{border-left:3px solid var(--accent);padding:4px 0 4px 14px;font-size:15.5px}
-.sowhat b{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:2px;font-weight:500}
-.chart svg{width:100%;height:auto;display:block;overflow:visible}
-.chart svg text{font-family:var(--f-mono);font-size:11px;fill:var(--muted)}
-.chart svg .v{font-family:var(--f-display);font-weight:800;font-size:18px;fill:var(--ink)}
-.chart svg .v.a{fill:var(--accent)}
-.chart .draw{stroke-dasharray:400;stroke-dashoffset:400}
-.in .chart .draw{animation:dash 1.4s cubic-bezier(.2,.7,.2,1) .2s forwards}
-@keyframes dash{to{stroke-dashoffset:0}}
-.grow{transform-box:fill-box;transform-origin:left;}
-.in .grow{animation:growx 1s cubic-bezier(.2,.7,.2,1) .2s both}
-@keyframes growx{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
-.growy{transform-box:fill-box;transform-origin:top}
-.in .growy{animation:growy 1s cubic-bezier(.2,.7,.2,1) .2s both}
-@keyframes growy{from{transform:scaleY(.06)}to{transform:scaleY(1)}}
+/* flagship */
+.flag>*{min-width:0}
+.flag{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;margin-top:64px;align-items:start}
+.flag .story p{color:var(--mute);margin-top:18px;max-width:52ch}
+.flag .story p b{color:var(--ink);font-weight:600}
+.flag h3{font-weight:800;font-stretch:110%;font-size:clamp(30px,3.6vw,48px);line-height:1;letter-spacing:-.02em}
+.steps{list-style:none;margin-top:30px;border-top:1px solid var(--line)}
+.steps li{display:grid;grid-template-columns:44px 1fr;gap:10px;padding:18px 0;border-bottom:1px solid var(--line);color:var(--mute);font-size:15.5px}
+.steps li b{color:var(--ink);font-weight:600}
+.steps li .mono{color:var(--blue);padding-top:3px}
+.acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;position:relative;overflow:hidden}
+.panel+.panel{margin-top:18px}
+.panel .mono{color:var(--dim)}
+.panel h4{font-size:20px;font-weight:700;margin:6px 0 22px;letter-spacing:-.01em}
+.hb{display:grid;grid-template-columns:110px 1fr;align-items:center;gap:14px;margin-top:14px;font-size:14px;color:var(--mute)}
+.hb .bar{height:34px;border-radius:8px;background:rgba(241,238,232,.05);position:relative;overflow:hidden}
+.hb .bar i{position:absolute;inset:0 auto 0 0;width:0;border-radius:8px;transition:width 1.6s var(--ease)}
+.hb .bar em{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-style:normal;font-weight:800;font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums}
+.chart{display:flex;align-items:flex-start;gap:14px;height:240px;border-top:1px dashed var(--line2);margin-top:30px;padding-top:0}
+.chart .col{flex:1;height:100%;display:flex;flex-direction:column;align-items:center}
+.chart .col i{display:block;width:100%;max-width:64px;height:0;border-radius:0 0 10px 10px;background:linear-gradient(var(--blue),rgba(76,141,255,.35));transition:height 1.4s var(--ease)}
+.chart .col b{font-weight:800;font-size:17px;margin-top:10px;opacity:0;transition:opacity .6s 1s;font-variant-numeric:tabular-nums}
+.chart .col span{font-family:var(--mono);font-size:12px;color:var(--dim);margin-top:2px}
+.chart .gap{flex:.4;height:100%;display:flex;align-items:flex-start;justify-content:center;color:var(--dim);font-family:var(--mono);font-size:12px;padding-top:8px}
+.panel.in .chart .col b{opacity:1}
+.sowhat{margin-top:22px;padding-left:16px;border-left:2px solid var(--orange);font-size:15px;color:var(--mute)}
+.sowhat b{color:var(--ink)}
+@media (max-width:960px){.flag{grid-template-columns:minmax(0,1fr);gap:40px}}
 
-/* Demo */
-.demo h4,.calc h4{font-size:clamp(21px,2vw,25px);font-weight:800}
-.seg{display:inline-flex;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:4px;gap:2px;max-width:100%}
-.seg button{font-family:var(--f-body);font-size:14.5px;font-weight:500;background:transparent;color:var(--muted);border:0;border-radius:999px;padding:8px 14px;cursor:pointer;transition:background .2s,color .2s;line-height:1.2}
-.seg button:hover{color:var(--ink)}
-.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
-.seg button small{display:block;font-size:10.5px;font-family:var(--f-mono);letter-spacing:.04em;text-transform:uppercase;opacity:.75}
-.ctrl{display:grid;gap:8px}
-.readout{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
-.readout .sel{font-size:14px;color:var(--muted);line-height:1.7}
-.readout .sel b{color:var(--ink);font-weight:600}
-.total{text-align:right}
-.total b{display:block;font-family:var(--f-display);font-weight:800;font-size:56px;line-height:.9;color:var(--accent);font-variant-numeric:tabular-nums}
-.records{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.rec-h,.rec{display:grid;grid-template-columns:1.1fr 1fr 1fr 88px;gap:8px;padding:0 14px;align-items:center}
-.rec-h{font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}
-.rec{font-size:14.5px;overflow:hidden;max-height:50px;opacity:1;transition:max-height .35s ease,opacity .3s ease,padding .35s ease,background .8s;padding-top:12px;padding-bottom:12px;border-bottom:1px solid var(--line)}
-.rec:last-child{border-bottom:0}
-.rec.out{max-height:0;opacity:0;padding-top:0;padding-bottom:0;border-bottom-width:0}
-.rec.new{background:var(--accent-soft)}
-.rec .id{font-family:var(--f-mono);font-size:13px}
-.st{justify-self:start;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px}
-.st.on{color:var(--good);background:#e5f4ec}.st.off{color:var(--bad);background:#fbe9e9}
-@media (max-width:460px){ .rec-h,.rec{grid-template-columns:1fr 1fr 80px} .rec-h span:nth-child(3),.rec span:nth-child(3){display:none} }
-.moral{font-family:var(--f-display);font-weight:600;font-size:18px;line-height:1.35}
+/* work cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:64px}
+.card{--mx:50%;--my:50%;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px 28px 28px;position:relative;overflow:hidden;display:flex;flex-direction:column;transition:transform .5s var(--ease),border-color .3s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(420px circle at var(--mx) var(--my),color-mix(in srgb,var(--c) 18%,transparent),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--c) 50%,transparent)}
+.card:hover::before{opacity:1}
+.card .top{height:4px;border-radius:4px;background:var(--c);width:48px;margin-bottom:26px}
+.card .res{font-weight:800;font-stretch:115%;font-size:clamp(38px,3.6vw,52px);line-height:1;letter-spacing:-.03em;color:var(--c)}
+.card .resl{color:var(--mute);font-size:14px;margin-top:8px;min-height:42px}
+.card h3{font-size:24px;font-weight:700;letter-spacing:-.01em;margin-top:26px}
+.card p{color:var(--mute);font-size:15.5px;margin-top:10px}
+.card ul{list-style:none;margin-top:18px;display:grid;gap:9px;font-size:14.5px;color:var(--mute)}
+.card ul li{padding-left:18px;position:relative}
+.card ul li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;border:2px solid var(--c)}
+.card ul b{color:var(--ink);font-weight:600}
+.card .links{display:flex;gap:18px;margin-top:auto;padding-top:26px;font-size:14px;font-weight:600}
+.card .links a{display:inline-flex;align-items:center;gap:6px;border-bottom:1px solid var(--line2);padding-bottom:2px;transition:border-color .2s,color .2s}
+.card .links a:hover{color:var(--c);border-color:var(--c)}
+.card .note{margin-top:auto;padding-top:26px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px;font-size:14px}
+.ba div{border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:var(--mute)}
+.ba div:last-child{border-color:color-mix(in srgb,var(--c) 45%,transparent);color:var(--ink)}
+.ba .mono{display:block;font-size:10.5px;margin-bottom:6px}
+@media (max-width:1000px){.cards{grid-template-columns:1fr}}
 
-/* Calculator */
-.calc{display:flex;flex-direction:column;gap:16px}
-.calc-in{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.calc-in label{display:grid;gap:6px;font-size:13.5px;color:var(--muted)}
-.money{display:flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px}
-.money i{font-style:normal;padding-left:12px;color:var(--muted)}
-.money input{width:100%;background:transparent;border:0;color:var(--ink);font-family:var(--f-display);font-weight:600;font-size:20px;padding:10px 12px 10px 6px;font-variant-numeric:tabular-nums}
-.money input:focus{outline:none}.money:focus-within{border-color:var(--accent)}
-.calc-out{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--line);border-radius:14px}
-.calc-out div{padding:14px 16px;display:grid;gap:4px}
-.calc-out div + div{border-left:1px solid var(--line)}
-.calc-out span{font-size:13.5px;color:var(--muted)}
-.calc-out b{font-family:var(--f-display);font-weight:800;font-size:34px;line-height:1;font-variant-numeric:tabular-nums}
-.calc-out b.a{color:var(--accent)}
-.mbar{height:8px;background:var(--line);border-radius:999px;overflow:hidden}
-.mbar span{display:block;height:100%;background:var(--accent);border-radius:999px;transition:width .45s cubic-bezier(.2,.7,.2,1)}
-.fine{font-size:13px;color:var(--muted)}
+/* career line */
+.lsec{position:relative}
+.pin{position:sticky;top:0;height:100vh;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+.lhead{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
+.lhead p{color:var(--mute);max-width:38ch}
+.track{position:relative;margin-top:70px;display:flex;width:max-content;padding:0 max(24px,calc((100vw - 1240px)/2));will-change:transform}
+.rail{position:absolute;left:max(24px,calc((100vw - 1240px)/2));right:0;top:13px;height:8px;border-radius:8px;background:rgba(241,238,232,.08)}
+.rail i{position:absolute;inset:0 auto 0 0;width:0;border-radius:8px;background-repeat:no-repeat}
+.rail b{position:absolute;top:50%;left:0;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 6px rgba(241,238,232,.12),0 0 30px rgba(243,154,30,.6)}
+.stop{width:min(420px,78vw);padding-right:60px;position:relative}
+.stop .dotx{width:34px;height:34px;border-radius:50%;background:var(--bg);border:4px solid rgba(241,238,232,.2);position:relative;z-index:2;transition:border-color .5s,transform .5s var(--ease),background .5s}
+.stop.on .dotx{border-color:var(--c);background:var(--ink);transform:scale(1.15)}
+.stop .when{margin-top:30px;color:var(--c)}
+.stop h3{font-weight:800;font-stretch:108%;font-size:clamp(24px,2.3vw,32px);line-height:1.05;letter-spacing:-.02em;margin-top:10px}
+.stop .org{color:var(--ink);opacity:.8;margin-top:8px;font-size:15.5px}
+.stop p{color:var(--mute);font-size:15px;margin-top:14px;max-width:34ch}
+.stop .where{display:inline-block;margin-top:18px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:6px;background:color-mix(in srgb,var(--c) 16%,transparent);color:var(--c)}
+.stop>*:not(.dotx){opacity:.35;transition:opacity .6s}
+.stop.on>*{opacity:1}
+.stop.next .dotx{border-style:dashed}
+.stop.next.on .dotx{animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(241,238,232,.5)}100%{box-shadow:0 0 0 22px rgba(241,238,232,0)}}
+@media (max-width:900px){
+  .lsec{height:auto!important}
+  .pin{position:relative;height:auto;padding:110px 0 70px}
+  .lhead{flex-direction:column;align-items:flex-start}
+  .track{flex-direction:column;width:auto;padding:0 24px 0 24px;transform:none!important;margin-top:50px}
+  .rail{left:37px;right:auto;top:0;bottom:56px;width:8px;height:auto}
+  .rail i{width:100%!important;height:var(--h,0)}
+  .rail b{left:50%!important;top:var(--h,0)}
+  .stop{width:auto;padding:0 0 56px 64px}
+  .stop .dotx{position:absolute;left:0;top:0}
+  .stop .when{margin-top:4px}
+}
 
-/* Smaller cards */
-.minis{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-@media (max-width:860px){ .minis{grid-template-columns:1fr} }
-.mini{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;display:flex;flex-direction:column;gap:12px;transition:transform .3s,box-shadow .3s}
-.mini:hover{transform:translateY(-4px);box-shadow:0 20px 40px -28px rgba(20,20,40,.35)}
-.mini h3{font-size:24px}
-.mini p{color:var(--muted);font-size:15.5px}
+/* about */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:72px;align-items:center}
+.pic{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/4.4;transform:rotate(-2deg);transition:transform .6s var(--ease)}
+.pic:hover{transform:rotate(0) scale(1.02)}
+.pic img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;filter:saturate(.95)}
+.pic::after{content:"";position:absolute;inset:0;border-radius:28px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.pic .badge{position:absolute;left:16px;bottom:16px;background:rgba(11,12,16,.75);backdrop-filter:blur(8px);padding:8px 12px;border-radius:10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
+.about h2{font-weight:800;font-stretch:110%;font-size:clamp(40px,5vw,72px);line-height:.95;letter-spacing:-.03em}
+.about h2 .serif{color:var(--orange)}
+.about .lead{font-size:clamp(19px,1.7vw,23px);line-height:1.45;margin-top:26px;letter-spacing:-.01em}
+.about .lead+p{color:var(--mute);margin-top:18px;max-width:56ch}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.facts span{border:1px solid var(--line2);border-radius:999px;padding:9px 16px;font-size:14.5px;color:var(--mute);transition:border-color .2s,color .2s}
+.facts span:hover{border-color:var(--ink);color:var(--ink)}
+.facts span b{color:var(--ink);font-weight:600}
+@media (max-width:900px){.about{grid-template-columns:1fr;gap:44px}.pic{max-width:420px}}
 
-/* ---------- Before/after process map ---------- */
-.pm{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:clamp(20px,3vw,34px)}
-.pm-top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}
-.pm-stage{position:relative}
-.pm-stage svg{width:100%;height:auto;display:block}
-.pm-stage .state{transition:opacity .5s ease}
-.pm-stage .state.hide{opacity:0;pointer-events:none}
-.pm-stage .state.after{position:absolute;inset:0}
-.pm svg text{font-family:var(--f-body);font-size:13px;fill:var(--ink)}
-.pm svg .lane{font-family:var(--f-mono);font-size:11px;fill:var(--muted);letter-spacing:.05em}
-.pm svg .box{fill:#fff;stroke:#cfcabf;stroke-width:1.2}
-.pm svg .box.q{fill:#fbe9e9;stroke:#e3a3a3}
-.pm svg .box.ok{fill:var(--accent-soft);stroke:var(--accent)}
-.pm svg .ln{fill:none;stroke:#9a958b;stroke-width:1.4}
-.pm svg .ln.bad{stroke:var(--bad);stroke-dasharray:5 5}
-.pm svg .ln.good{stroke:var(--accent);stroke-width:1.8}
-.pm-cap{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
-@media (max-width:720px){ .pm-cap{grid-template-columns:1fr} }
-.pm-cap p{font-size:15.5px;color:var(--muted)}
-.pm-cap b{color:var(--ink)}
+/* contact */
+.contact{padding:150px 0 60px;border-top:1px solid var(--line);overflow:hidden}
+.talk{font-weight:900;font-stretch:125%;font-size:min(15vw,230px);line-height:.88;letter-spacing:-.04em;text-transform:uppercase;display:flex;flex-wrap:wrap;column-gap:.22em}
+.talk .wd{display:inline-flex;white-space:nowrap}
+.talk span{display:inline-block;transition:color .25s,transform .4s var(--ease)}
+.talk span:hover{transform:translateY(-8px)}
+.talk span:nth-child(4n+1):hover{color:var(--red)}.talk span:nth-child(4n+2):hover{color:var(--orange)}.talk span:nth-child(4n+3):hover{color:var(--blue)}.talk span:nth-child(4n):hover{color:var(--green)}
+.cgrid{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;margin-top:56px;align-items:start}
+.cgrid p{color:var(--mute);font-size:19px;max-width:40ch}
+.clinks{display:grid;gap:0;border-top:1px solid var(--line)}
+.clinks a,.clinks button{display:flex;justify-content:space-between;align-items:center;padding:20px 4px;border-bottom:1px solid var(--line);font:600 19px var(--disp);color:var(--ink);background:none;border-left:0;border-right:0;border-top:0;cursor:pointer;text-align:left;transition:padding .3s var(--ease),color .2s}
+.clinks a:hover,.clinks button:hover{padding-left:14px;color:var(--orange)}
+.clinks .mono{color:var(--dim)}
+foot,.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:110px;padding-top:24px;border-top:1px solid var(--line);font-size:14px;color:var(--dim)}
+.foot b{color:var(--mute);font-weight:500}
+@media (max-width:860px){.cgrid{grid-template-columns:1fr}}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,120px);background:var(--ink);color:#111;padding:12px 18px;border-radius:12px;font-weight:600;font-size:14px;z-index:95;transition:transform .4s var(--ease)}
+.toast.show{transform:translate(-50%,0)}
 
-/* Deliverables */
-.deliv{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:20px}
-@media (max-width:960px){ .deliv{grid-template-columns:1fr 1fr} }
-@media (max-width:520px){ .deliv{grid-template-columns:1fr} }
-.d{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:8px}
-.d .ic{width:38px;height:38px;border-radius:10px;background:var(--accent-soft);display:grid;place-items:center;margin-bottom:6px}
-.d .ic svg{width:20px;height:20px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.d h3{font-size:19px}
-.d p{color:var(--muted);font-size:15px}
+/* day job */
+.job{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:64px;margin-top:60px;align-items:start}
+.job .intro p{color:var(--mute);margin-top:18px;max-width:50ch}
+.job .intro p b{color:var(--ink);font-weight:600}
+.jstats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.jst{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px 22px;position:relative;overflow:hidden;transition:border-color .3s,transform .5s var(--ease)}
+.jst:hover{border-color:color-mix(in srgb,var(--c) 55%,transparent);transform:translateY(-4px)}
+.jst::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--c) 22%,transparent),transparent 70%)}
+.jst strong{display:block;font-weight:800;font-stretch:108%;font-size:clamp(30px,3vw,42px);line-height:1;letter-spacing:-.02em;color:var(--c);font-variant-numeric:tabular-nums}
+.jst h4{font-size:16.5px;font-weight:700;margin-top:14px;letter-spacing:-.01em}
+.jst p{color:var(--mute);font-size:14.5px;margin-top:6px}
+.trace{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px 26px 24px}
+.trace .mono{color:var(--dim)}
+.trace h4{font-size:20px;font-weight:700;margin:6px 0 4px}
+.trace>p{color:var(--mute);font-size:14.5px}
+.tline{position:relative;display:grid;grid-template-columns:repeat(4,1fr);margin-top:34px}
+.tline::before{content:"";position:absolute;left:12.5%;right:12.5%;top:17px;height:4px;border-radius:4px;background:rgba(241,238,232,.08)}
+.tline .run{position:absolute;left:12.5%;top:17px;height:4px;width:0;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--orange))}
+.tline .pk{position:absolute;top:11px;left:12.5%;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:var(--ink);box-shadow:0 0 18px rgba(243,154,30,.7);opacity:0}
+.tline.go .run{animation:trun 6s var(--ease) infinite}
+.tline.go .pk{animation:tpk 6s var(--ease) infinite}
+@keyframes trun{0%{width:0}55%,100%{width:75%}}
+@keyframes tpk{0%{left:12.5%;opacity:1}55%{left:87.5%;opacity:1}62%,100%{left:87.5%;opacity:0}}
+.tst{text-align:center;position:relative;z-index:1}
+.tst i{display:grid;place-items:center;width:38px;height:38px;margin:0 auto;border-radius:50%;background:var(--bg);border:3px solid rgba(241,238,232,.2);font-style:normal;font-size:12px;font-weight:800;transition:border-color .3s}
+.tst b{display:block;font-size:14px;font-weight:700;margin-top:12px}
+.tst span{display:block;font-family:var(--mono);font-size:12px;color:var(--mute);margin-top:4px}
+.tline.go .tst:nth-child(3) i{animation:lit 6s infinite;--d:0}
+.tline.go .tst:nth-child(4) i{animation:lit2 6s infinite}
+.tline.go .tst:nth-child(5) i{animation:bad 6s infinite}
+.tline.go .tst:nth-child(6) i{animation:bad2 6s infinite}
+@keyframes lit{0%,100%{border-color:var(--blue)}}
+@keyframes lit2{0%,17%{border-color:rgba(241,238,232,.2)}20%,100%{border-color:var(--blue)}}
+@keyframes bad{0%,35%{border-color:rgba(241,238,232,.2)}38%,100%{border-color:var(--blue)}}
+@keyframes bad2{0%,52%{border-color:rgba(241,238,232,.2)}55%,100%{border-color:var(--orange);background:rgba(243,154,30,.15)}}
+.verdict{margin-top:26px;padding:14px 16px;border-radius:14px;background:rgba(243,154,30,.08);border:1px solid rgba(243,154,30,.25);font-size:14.5px;color:var(--mute)}
+.verdict b{color:var(--orange)}
+.tline:not(.go) ~ .verdict{opacity:.4}
+@media (max-width:960px){.job{grid-template-columns:minmax(0,1fr);gap:40px}}
+@media (max-width:520px){.jstats{grid-template-columns:1fr}.tst b{font-size:12.5px}.tst span{font-size:10.5px}}
 
-/* ---------- Role fit ---------- */
-.fit{background:var(--ink);color:#f3f2ee;border-radius:28px;padding:clamp(24px,4vw,48px)}
-.fit h2{color:#fff}
-.fit .lede{color:#b9b6ae}
-.fit .seg{background:#232323;border-color:#333;margin:26px 0 24px}
-.fit .seg button{color:#b9b6ae;font-size:15px;padding:10px 16px}
-.fit .seg button:hover{color:#fff}
-.fit .seg button[aria-pressed="true"]{background:#fff;color:var(--ink)}
-.fit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-@media (max-width:860px){ .fit-grid{grid-template-columns:1fr} }
-.fc{background:#1d1d1d;border:1px solid #2e2e2e;border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:10px;animation:rise .45s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0s)}
-@keyframes rise{from{transform:translateY(10px);opacity:.3}to{transform:none;opacity:1}}
-.fc .k{font-family:var(--f-display);font-weight:800;font-size:38px;line-height:1;color:#8f9dff;letter-spacing:-.03em}
-.fc h3{font-size:19px;line-height:1.25;color:#fff}
-.fc p{color:#b9b6ae;font-size:15px}
-.fc a{margin-top:auto;font-size:14px;font-weight:500;text-decoration:none;color:#fff}
-.fc a:hover{color:#8f9dff}
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:60px}
+.sk{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px 26px;display:flex;flex-direction:column}
+.sk .top{height:4px;width:48px;border-radius:4px;background:var(--c)}
+.sk h3{font-size:22px;font-weight:700;letter-spacing:-.01em;margin-top:22px}
+.sk>p{color:var(--mute);font-size:15px;margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chips span{font-size:13.5px;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);color:var(--ink);transition:background .2s,border-color .2s,color .2s;cursor:default}
+.chips span:hover{background:var(--c);border-color:var(--c);color:#111}
+.sk .seen{margin-top:auto;padding-top:22px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}
+.sk .seen b{color:var(--mute);font-weight:500}
+.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:18px;border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.way{padding:26px;border-right:1px solid var(--line)}
+.way:last-child{border-right:0}
+.way .mono{color:var(--orange)}
+.way h4{font-size:19px;font-weight:700;margin-top:10px;letter-spacing:-.01em}
+.way p{color:var(--mute);font-size:14.5px;margin-top:6px}
+@media (max-width:960px){.skills,.ways{grid-template-columns:minmax(0,1fr)}.way{border-right:0;border-bottom:1px solid var(--line)}.way:last-child{border-bottom:0}}
+.cards.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card.wide{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px;align-items:center}
+@media (max-width:860px){.card.wide{grid-template-columns:minmax(0,1fr);gap:8px}}
+@media (max-width:1000px){.cards.two{grid-template-columns:1fr}}
 
-/* ---------- Experience timeline ---------- */
-.tline{position:relative;display:grid;gap:0}
-.tline::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:var(--line)}
-.job{display:grid;grid-template-columns:28px 210px 1fr;gap:20px;padding:0 0 44px}
-@media (max-width:760px){ .job{grid-template-columns:28px 1fr} .job .when{grid-column:2} .job .what{grid-column:2} }
-.job .dot{width:16px;height:16px;border-radius:50%;background:var(--paper);border:3px solid var(--accent);margin-top:6px;position:relative;z-index:1}
-.job.past .dot{border-color:#b9b4a8}
-.job .when{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:4px}
-.job h3{font-size:24px}
-.job .org{color:var(--muted);margin:6px 0 14px}
-.job ul{margin:0;padding-left:18px;display:grid;gap:8px;max-width:68ch;font-size:15.5px}
+.jstats.imp .jst{display:flex;flex-direction:column;padding:24px 22px 20px}
+.jst .k{color:var(--c);font-size:11.5px}
+.jstats.imp .jst p{color:var(--ink);opacity:.82;font-size:15px;margin-top:12px;line-height:1.5}
+.jst .ev{display:flex;align-items:baseline;gap:10px;margin-top:auto;padding-top:18px;border-top:1px solid var(--line);margin-top:18px}
+.jst .ev strong{font-size:30px;flex:none}
+.jst .ev span{font-size:13px;color:var(--mute);line-height:1.35}
+.flow{margin-top:18px;padding:32px 30px 26px}
+.fhead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:end}
+.fhead h4{font-size:clamp(22px,2.2vw,30px);line-height:1.1;font-weight:800;font-stretch:108%;letter-spacing:-.02em;margin-top:8px}
+.fhead p{color:var(--mute);font-size:15px}
+.tline.five{grid-template-columns:repeat(5,1fr);margin-top:40px}
+.tline.five::before{left:10%;right:10%}
+.tline.five .run{left:10%}
+.tline.five .pk{left:10%}
+.tline.five.go .run{animation:frun 5s var(--ease) infinite}
+.tline.five.go .pk{animation:fpk 5s var(--ease) infinite}
+@keyframes frun{0%{width:0}70%,100%{width:80%}}
+@keyframes fpk{0%{left:10%;opacity:1}70%{left:90%;opacity:1}78%,100%{left:90%;opacity:0}}
+.tline.five .tst i{font-family:var(--mono);font-weight:500;font-size:11px}
+.tline.five.go .tst i{animation:flit 5s infinite}
+.tline.five.go .tst:nth-child(3) i{animation-delay:0s}
+.tline.five.go .tst:nth-child(4) i{animation-name:flit2}
+.tline.five.go .tst:nth-child(5) i{animation-name:flit3}
+.tline.five.go .tst:nth-child(6) i{animation-name:flit4}
+.tline.five.go .tst:nth-child(7) i{animation-name:flit5}
+@keyframes flit{0%,100%{border-color:var(--blue)}}
+@keyframes flit2{0%,17%{border-color:rgba(241,238,232,.2)}19%,100%{border-color:var(--blue)}}
+@keyframes flit3{0%,34%{border-color:rgba(241,238,232,.2)}36%,100%{border-color:var(--blue)}}
+@keyframes flit4{0%,51%{border-color:rgba(241,238,232,.2)}53%,100%{border-color:var(--blue)}}
+@keyframes flit5{0%,68%{border-color:rgba(241,238,232,.2)}70%,100%{border-color:var(--orange);background:rgba(243,154,30,.15)}}
+.trace>p.fnote{margin-top:24px;color:var(--dim);font-size:11px}
+@media (max-width:860px){.fhead{grid-template-columns:minmax(0,1fr);gap:12px}}
+@media (max-width:600px){.tline.five{grid-template-columns:minmax(0,1fr);gap:18px;margin-top:28px}.tline.five::before,.tline.five .run,.tline.five .pk{display:none}.tline.five .tst{display:grid;grid-template-columns:44px 1fr;text-align:left;align-items:center;column-gap:12px}.tline.five .tst i{grid-row:span 2;margin:0}.tline.five .tst b{margin-top:0}.tline.five .tst span{margin-top:0}}
 
-/* ---------- Skills ---------- */
-.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-@media (max-width:860px){ .skills{grid-template-columns:1fr} }
-.sk{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
-.sk h3{font-size:21px;margin-bottom:8px}
-.sk p{color:var(--muted);font-size:15.5px;margin-bottom:14px}
-.chips{display:flex;flex-wrap:wrap;gap:7px}
-.chip{font-size:13.5px;padding:5px 11px;border-radius:999px;background:var(--paper);border:1px solid var(--line)}
-
-/* ---------- About ---------- */
-.about{display:grid;grid-template-columns:.9fr 1.2fr;gap:clamp(28px,5vw,64px);align-items:start}
-@media (max-width:860px){ .about{grid-template-columns:1fr} }
-.about .big{font-family:var(--f-display);font-weight:600;font-size:clamp(24px,2.6vw,32px);line-height:1.25;letter-spacing:-.015em;margin-bottom:22px}
-.about p + p{margin-top:16px}
-.about-text p:not(.big){font-size:17.5px;max-width:60ch}
-.path{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:32px;border-top:1px solid var(--line)}
-@media (max-width:620px){ .path{grid-template-columns:1fr 1fr} }
-.path div{padding:14px 10px 0 0}
-.path b{display:block;font-family:var(--f-display);font-size:17px}
-.path span{font-size:13.5px;color:var(--muted)}
-.about-pic{width:100%;max-width:340px;aspect-ratio:1/1;object-fit:cover;object-position:50% 25%;border-radius:20px;border:1px solid var(--line);margin-bottom:18px;display:block}
-.facts{display:grid;gap:12px}
-.fact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;grid-template-columns:112px 1fr;gap:12px;font-size:15.5px}
-.fact span:first-child{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:3px}
-
-/* ---------- FAQ ---------- */
-.qa{display:grid;grid-template-columns:1fr 1.25fr;gap:16px}
-@media (max-width:860px){ .qa{grid-template-columns:1fr} }
-.qa-qs{display:flex;flex-direction:column;gap:8px}
-.qa-qs button{text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;color:var(--ink);font-family:var(--f-body);font-size:16px;padding:14px 18px;cursor:pointer;transition:border-color .2s,background .2s;display:flex;justify-content:space-between;gap:12px}
-.qa-qs button::after{content:"→";color:var(--muted);transition:transform .2s,color .2s}
-.qa-qs button:hover{border-color:#cfcabf}
-.qa-qs button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
-.qa-qs button[aria-pressed="true"]::after{color:var(--accent);transform:translateX(3px)}
-.qa-a{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;gap:14px;min-height:250px}
-.qa-text{font-family:var(--f-display);font-weight:600;font-size:clamp(20px,2vw,26px);line-height:1.4;letter-spacing:-.01em}
-.caret{display:inline-block;width:.45em;height:1em;background:var(--accent);vertical-align:-.12em;margin-left:2px;animation:blink 1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
-
-/* ---------- Contact ---------- */
-.contact{margin-top:clamp(72px,10vw,128px);padding:clamp(56px,8vw,96px) 0;border-top:1px solid var(--line)}
-.contact h2{font-size:clamp(44px,7vw,92px);letter-spacing:-.045em;max-width:13ch;line-height:.98}
-.c-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
-@media (max-width:760px){ .c-row{grid-template-columns:1fr} }
-.c{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;display:grid;gap:6px;min-width:0}
-.c span{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
-.c a{font-family:var(--f-display);font-weight:600;font-size:19px;text-decoration:none;overflow-wrap:anywhere}
-.c a:hover{color:var(--accent)}
-.copy{justify-self:start;margin-top:4px;font-family:var(--f-body);font-size:13.5px;background:var(--paper);border:1px solid var(--line);border-radius:999px;color:var(--ink);padding:6px 12px;cursor:pointer}
-.copy:hover{border-color:var(--ink)}
-footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-
-/* scroll reveal (content is visible before and after; only motion is added) */
-.rv.in-anim{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
-@keyframes up{from{transform:translateY(22px);opacity:.2}to{transform:none;opacity:1}}
-
-@media (prefers-reduced-motion: reduce){
-  *,*::before,*::after{animation:none !important;transition:none !important;scroll-behavior:auto !important}
-  .chart .draw{stroke-dashoffset:0}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .marq .tr{animation:none}
+  .map .train{display:none}
 }
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="glow" aria-hidden="true"></div>
 
-<header id="hdr">
-  <div class="wrap nav">
-    <a class="logo" href="#top"><span class="mk">ST</span>Shreyas Tayde</a>
-    <ul class="links">
-      <li class="hide-sm"><a href="#work">Work</a></li>
-      <li class="hide-sm"><a href="#how">How I work</a></li>
-      <li class="hide-sm"><a href="#about">About</a></li>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Shreyas Tayde, back to top"><i aria-hidden="true"></i>Shreyas Tayde</a>
+    <nav aria-label="Main"><ul>
+      <li><a href="#job">CVS work</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#line">My line</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a class="cv" href="Shreyas_Tayde_Resume.pdf">Résumé</a></li>
-    </ul>
+    </ul></nav>
+    <a class="btn solid mag" href="Shreyas_Tayde_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
   </div>
 </header>
 
-<main id="top">
-  <!-- HERO -->
-  <section class="hero" aria-labelledby="h1">
-    <div class="wrap">
-      <div class="hero-grid">
+<main id="main">
+<section class="hero" id="top">
+  <svg class="map" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <path id="pR" class="trk" pathLength="1" stroke="#e8473b" d="M-40 760 C 260 760, 380 620, 560 560 S 900 520, 1040 380 S 1300 120, 1500 90"/>
+    <path id="pO" class="trk" pathLength="1" stroke="#f39a1e" style="animation-delay:.25s" d="M980 -40 C 990 140, 930 260, 960 380 S 1040 640, 1000 960"/>
+    <path id="pB" class="trk" pathLength="1" stroke="#4c8dff" style="animation-delay:.5s" d="M1500 300 C 1320 300, 1220 400, 1040 380 S 860 300, 700 260"/>
+    <path id="pG" class="trk" pathLength="1" stroke="#2fbf71" style="animation-delay:.75s" d="M-40 420 C 200 420, 360 480, 560 560 S 820 700, 980 760 S 1260 820, 1500 820"/>
+    <circle class="stn" cx="1040" cy="380" r="14"/>
+    <circle class="stn" cx="560" cy="560" r="12"/>
+    <circle class="stn" cx="960" cy="380" r="10" style="display:none"/>
+    <circle class="stn" cx="700" cy="260" r="10"/>
+    <circle class="train" r="7" fill="#f1eee8"><animateMotion dur="14s" repeatCount="indefinite" rotate="auto"><mpath href="#pR"/></animateMotion></circle>
+    <circle class="train" r="7" fill="#f1eee8"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite"><mpath href="#pO"/></animateMotion></circle>
+    <circle class="train" r="7" fill="#f1eee8"><animateMotion dur="9s" begin="-2s" repeatCount="indefinite"><mpath href="#pB"/></animateMotion></circle>
+    <circle class="train" r="7" fill="#f1eee8"><animateMotion dur="16s" begin="-7s" repeatCount="indefinite"><mpath href="#pG"/></animateMotion></circle>
+  </svg>
+  <div class="wrap">
+    <span class="status mono fadein" style="animation-delay:.2s"><b></b>Boston, MA · Open to BA, BSA &amp; Data Analyst roles</span>
+    <div class="name" aria-label="Shreyas Tayde">
+      <div class="row" aria-hidden="true"><span class="w" data-split>Shreyas</span></div>
+      <div class="row" aria-hidden="true"><span class="w" data-split>Tayde<span class="dot">.</span></span><span class="me"><img src="shreyas.jpg" width="720" height="774" alt="" fetchpriority="high"></span></div>
+    </div>
+    <div class="tag">
+      <h1 class="fadein" style="animation-delay:1.1s">I find where the numbers <span class="serif">stop agreeing</span>, and write the rule that fixes it.</h1>
+      <div class="fadein" style="animation-delay:1.3s">
+        <p>Business analyst in Boston. On a CVS Health client assignment, I turn vague questions about retail dashboards into clear business rules. In my own time, I prove it on public data.</p>
+        <div class="acts">
+          <a class="btn solid mag" href="#job">See the work <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12L12 4M6 4h6v6"/></svg></a>
+          <a class="btn mag" href="Shreyas_Tayde_Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scrollcue mono" aria-hidden="true">Scroll<span></span></div>
+</section>
+
+<div class="marq" aria-label="Skills: Requirements, SQL, Power BI, Tableau, Process maps, REST APIs, ServiceNow, Python, Data dictionaries, Rally, ELK, Gap analysis">
+  <div class="tr" aria-hidden="true">
+    <span>Requirements</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Process maps</span><span>REST APIs</span><span>ServiceNow</span><span>Python</span><span>Data dictionaries</span><span>Rally</span><span>ELK</span><span>Gap analysis</span>
+    <span>Requirements</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Process maps</span><span>REST APIs</span><span>ServiceNow</span><span>Python</span><span>Data dictionaries</span><span>Rally</span><span>ELK</span><span>Gap analysis</span>
+  </div>
+</div>
+
+<section aria-label="By the numbers">
+  <div class="wrap nums">
+    <div class="num rv"><strong data-count="9000" data-pre="~">~9,000</strong><p>stores on the retail dashboards I work on</p></div>
+    <div class="num rv"><strong data-count="61">61</strong><p>MBTA subway stations reconciled, station by station</p></div>
+    <div class="num rv"><strong data-count="11000" data-suf="+">11,000+</strong><p>hospital prices made comparable in one view</p></div>
+    <div class="num rv"><strong data-count="5000" data-suf="+">5,000+</strong><p>products analyzed in my trade-policy project</p></div>
+  </div>
+</section>
+
+
+<section class="sec" id="job" style="padding-bottom:40px">
+  <div class="wrap">
+    <div class="eyebrow mono" style="--c:var(--red)">Current role · CVS Health client assignment</div>
+    <h2 class="big split">Inside a 9,000-store <span class="serif">system.</span></h2>
+    <div class="job">
+      <div class="intro rv">
+        <p>Through Gardner Resources Consulting, I'm a <b>Technical Analyst on Orion Control Center</b>, the platform CVS Health uses to monitor store technology across about 9,000 retail stores, from one store's devices up to the whole chain.</p>
+        <p>My role is to understand <b>both the business question and the system underneath it</b>. I know how data moves from the store, through logs, databases and APIs, to the dashboard. So when numbers don't add up or a requirement is unclear, I can explain why and help the team make the call.</p>
+        <div class="facts" style="margin-top:22px"><span>Device inventory</span><span>Network &amp; connectivity</span><span>Real-time diagnostics</span><span>Power outages</span><span>Incidents (ServiceNow)</span><span>Store information</span><span>Store vs. Central views</span></div>
+      </div>
+      <div class="jstats imp">
+        <div class="jst rv" style="--c:var(--red)"><span class="k mono">Data people can trust</span><p>When store and central teams see different numbers, I trace them across the dashboard, APIs, SQL, ELK logs and ServiceNow to the exact layer where they split.</p><div class="ev"><strong data-count="57000" data-suf="+">57,000+</strong><span>rows in the largest export I traced end to end</span></div></div>
+        <div class="jst rv" style="--c:var(--orange)"><span class="k mono">Clear rules before build</span><p>I turn user stories into precise business rules: scope, role-based access, and how Store and Central views should differ, so everyone builds from one definition.</p><div class="ev"><strong data-count="7">7</strong><span>teams aligned, from product owners to store operations</span></div></div>
+        <div class="jst rv" style="--c:var(--blue)"><span class="k mono">Release visibility</span><p>I built and run the tracker that gives leadership one view of every biweekly release across DEV, UAT and PROD: status, decisions and risk.</p><div class="ev"><strong data-count="210" data-suf="+">210+</strong><span>items tracked in one place</span></div></div>
+        <div class="jst rv" style="--c:var(--green)"><span class="k mono">AI in the workflow</span><p>I assessed an AI-assisted tool on real user stories and recommended where it fits the team's workflow.</p><div class="ev"><strong data-count="13">13</strong><span>user stories assessed</span></div></div>
+      </div>
+    </div>
+    <div class="trace flow rv">
+      <div class="fhead">
+        <div><span class="mono">How a number travels · simplified</span><h4>I know where every number comes from.</h4></div>
+        <p>When two teams see different totals, I follow the number back along its path, find the step where it changes, and bring the owner of that step a clear question with the evidence.</p>
+      </div>
+      <div class="tline five" id="tline">
+        <div class="run"></div><div class="pk"></div>
+        <div class="tst"><i>01</i><b>Store devices</b><span>registers, servers, network</span></div>
+        <div class="tst"><i>02</i><b>ELK logs</b><span>raw events</span></div>
+        <div class="tst"><i>03</i><b>Database</b><span>stored records</span></div>
+        <div class="tst"><i>04</i><b>REST API</b><span>serves the data</span></div>
+        <div class="tst"><i>05</i><b>Dashboard</b><span>what store &amp; central teams see</span></div>
+      </div>
+      <p class="fnote mono">Real paths vary by feature. The point: I can follow any of them.</p>
+    </div>
+<div class="cards rv" style="margin-top:18px;grid-template-columns:1fr">
+      <article class="card wide" style="--c:var(--red)">
+        <div><div class="top"></div><div class="res">1 rule</div><div class="resl">so two teams stop arguing about what "device count" means</div></div>
         <div>
-          <span class="pill"><span class="dot" aria-hidden="true"></span>Open to Business Analyst, BSA and Data Analyst roles</span>
-          <h1 id="h1"><span class="w" style="--i:0">I</span> <span class="w" style="--i:1">make</span> <span class="w" style="--i:2">dashboards</span> <span class="w" style="--i:3">answer</span> <span class="w" style="--i:4">the</span> <span class="w hl" style="--i:5">right question.</span></h1>
-          <p class="lede">I'm a business analyst in Boston. On a CVS Health client assignment, I work with product owners and engineers on retail technology dashboards used across about 9,000 stores, turning vague questions into clear business rules everyone can build from.</p>
-          <div class="ctas">
-            <a class="btn primary" href="#work">See my work <span class="ar" aria-hidden="true">→</span></a>
-            <a class="btn" href="Shreyas_Tayde_Resume.pdf">Download résumé</a>
-          </div>
-        </div>
-        <aside class="idcard" aria-label="Profile summary">
-          <div class="photo"><img src="shreyas.jpg" width="720" height="774" alt="Shreyas Tayde, smiling, in a navy suit" fetchpriority="high"><span class="tag">Boston, MA</span></div>
-          <div class="idrows">
-            <div><span>Now</span><span>Jr. Technical Analyst, supporting CVS Health</span></div>
-            <div><span>Looking for</span><span>BA · BSA · Data Analyst</span></div>
-            <div><span>Location</span><span>Boston · open to relocation</span></div>
-            <div><span>Education</span><span>MS Business Analytics, UMass Boston</span></div>
-          </div>
-        </aside>
-      </div>
-
-      <div class="proof" aria-label="Proof in numbers">
-        <div><b data-count="9000" data-prefix="~">~9,000</b><span>stores on the retail dashboards I work on</span></div>
-        <div><b data-count="7">7</b><span>teams I work across, from product owners to store operations</span></div>
-        <div><b data-count="11000" data-suffix="+">11,000+</b><span>hospital prices made comparable in a public project</span></div>
-        <div><b data-count="5000" data-suffix="+">5,000+</b><span>products analyzed in my trade-policy project</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 30 SECONDS -->
-  <section id="summary" aria-labelledby="sum-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">The 30-second version</p>
-        <h2 id="sum-h">Short on time? Start here.</h2>
-      </div>
-      <div class="tldr">
-        <div class="tl rv"><span class="n">01 · What I do</span><h3>Turn questions into clear rules</h3><p>When a team asks "what does this number mean?", I find the answer, write it down as a business rule, and get everyone building from the same definition.</p></div>
-        <div class="tl rv"><span class="n">02 · Where I've done it</span><h3>Retail tech, manufacturing, public data</h3><p>Retail technology for CVS Health stores, operations reporting at a manufacturer in Mumbai, and three public projects in healthcare pricing, trade policy and transit data.</p></div>
-        <div class="tl rv"><span class="n">03 · What I want next</span><h3>A BA or BSA role with real systems</h3><p>Business Analyst, Business Systems Analyst or Data Analyst. Anywhere in the US: remote, hybrid or onsite, and open to relocation.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WORK -->
-  <section id="work" aria-labelledby="work-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">Selected work</p>
-        <h2 id="work-h">Four stories, each with a before and an after.</h2>
-        <p class="lede">One from my job, told with illustrative data, and three public projects you can open and check yourself.</p>
-      </div>
-
-      <!-- Featured: device count -->
-      <article class="case rv" id="device-count" aria-labelledby="c1">
-        <div class="case-head"><span class="eyebrow">01 · From the job</span><div class="tags"><span class="tag2">Business rules</span><span class="tag2">Requirements</span><span class="tag2">Retail technology</span></div></div>
-        <div class="case-body">
-          <div class="case-text">
-            <h3 id="c1">What does a device count include?</h3>
-            <p class="sub">A store user and a central user both see a "device count." Should those numbers mean the same thing?</p>
-            <div class="ba">
-              <div class="before"><span class="k">Before</span>Two teams use the same word for two different totals, and nobody is sure which one is right.</div>
-              <div class="after"><span class="k">After</span>One written rule for what each role's count includes. The whole team builds from it.</div>
-            </div>
-            <ul class="did">
-              <li><span>Asked which locations, device types and filters each role's total should include.</span></li>
-              <li><span>Compared the summary with the records behind it, and with the table and export.</span></li>
-              <li><span>Brought the product owner one precise question to decide, with the evidence attached.</span></li>
-            </ul>
-          </div>
-          <div class="case-vis demo" aria-labelledby="demo-h">
-            <div><p class="eyebrow">Try it · Illustrative data</p><h4 id="demo-h" style="margin-top:6px">What does this count include?</h4></div>
-            <div class="ctrl"><span class="fine" id="scope-l">Who is looking</span>
-              <div class="seg" role="group" aria-labelledby="scope-l">
-                <button type="button" data-scope="A" aria-pressed="true"><small>Store user</small>Store A</button>
-                <button type="button" data-scope="ALL" aria-pressed="false"><small>Central user</small>All stores</button>
-              </div>
-            </div>
-            <div class="ctrl"><span class="fine" id="filter-l">Status filter</span>
-              <div class="seg" role="group" aria-labelledby="filter-l">
-                <button type="button" data-filter="all" aria-pressed="true">All</button>
-                <button type="button" data-filter="online" aria-pressed="false">Online</button>
-                <button type="button" data-filter="offline" aria-pressed="false">Offline</button>
-              </div>
-            </div>
-            <div class="readout" aria-live="polite">
-              <div class="sel">Scope: <b id="r-scope">Store A</b><br>Filter: <b id="r-filter">All</b></div>
-              <div class="total"><span class="fine">Device count</span><b id="r-total">3</b></div>
-            </div>
-            <div class="records" id="records"><div class="rec-h"><span>Device</span><span>Location</span><span>Type</span><span>Status</span></div></div>
-            <p class="sowhat"><b>So what?</b>A count is meaningful only when you know which records it includes. Defining that up front saves rework later.</p>
-          </div>
+          <h3 style="margin-top:0">What does a count include?</h3>
+          <p>A store user and a central user both see a "device count." Should those numbers mean the same thing? I asked which locations, device types and filters each role's total should include, checked the summary against the records behind it, and brought the product owner one precise question to decide.</p>
+          <div class="ba"><div><span class="mono">Before</span>Same word, two different totals. Nobody sure which is right.</div><div><span class="mono">After</span>One written rule for what each role's count includes. The whole team builds from it.</div></div>
+          <div class="note" style="padding-top:16px">A case from my job, told with illustrative data</div>
         </div>
       </article>
+    </div>
+  </div>
+</section>
 
-      <!-- Tariff -->
-      <article class="case rv" id="tariff-whiplash" aria-labelledby="c2">
-        <div class="case-head"><span class="eyebrow">02 · Public project · Supply chain</span><div class="tags"><span class="tag2">SQL · DuckDB</span><span class="tag2">Python</span><span class="tag2">Requirements doc</span></div></div>
-        <div class="case-body">
-          <div class="case-text">
-            <h3 id="c2">Tariff Whiplash</h3>
-            <p class="sub">When tariffs swing month to month, what does a US importer actually pay, and how should they manage it?</p>
-            <div class="ba">
-              <div class="before"><span class="k">Before</span>Headlines about tariff rates, but no clear picture of what importers really paid.</div>
-              <div class="after"><span class="k">After</span>Measured rates from official data, plus a working tracker for landed cost, margin and refunds.</div>
-            </div>
-            <ul class="did">
-              <li><span>Analyzed official Census trade data for <b>5,000+ products</b> (through Aug 2026) with 9 documented SQL queries.</span></li>
-              <li><span>Wrote a requirements document: <b>12 functional requirements</b>, process maps and business rules.</span></li>
-              <li><span>Encoded <b>34 tariff rules</b> (30 sourced to legal texts) that matched real duty data to a median of 0.3 points.</span></li>
-            </ul>
-            <div class="links2"><a href="https://shre0027.github.io/tariff-whiplash/">Open the project ↗</a><a href="https://github.com/Shre0027/tariff-whiplash">See the code ↗</a></div>
-          </div>
-          <div class="case-vis">
-            <div class="chart">
-              <p class="eyebrow" style="margin-bottom:10px">Tariff rate importers actually paid</p>
-              <svg viewBox="0 0 360 170" role="img" aria-label="Effective tariff rate: 2.2 percent at the start, 10.8 percent at the peak, 6.9 percent in August 2026.">
-                <line x1="30" y1="140" x2="345" y2="140" stroke="#e7e3da"/>
-                <line x1="30" y1="22" x2="345" y2="22" stroke="#e7e3da" stroke-dasharray="3 4"/>
-                <text x="0" y="144">0%</text><text x="0" y="26">12%</text>
-                <polyline class="draw" points="60,118.3 185,32.0 310,71.0" fill="none" stroke="#2b45e8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-                <circle cx="60" cy="118.3" r="5" fill="#fff" stroke="#151515" stroke-width="1.6"/>
-                <circle cx="185" cy="32" r="6" fill="#2b45e8"/>
-                <circle cx="310" cy="71" r="5" fill="#fff" stroke="#151515" stroke-width="1.6"/>
-                <text class="v" x="60" y="106" text-anchor="middle">2.2%</text>
-                <text class="v a" x="185" y="18" text-anchor="middle">10.8%</text>
-                <text class="v" x="310" y="59" text-anchor="middle">6.9%</text>
-                <text x="60" y="162" text-anchor="middle">Start</text><text x="185" y="162" text-anchor="middle">Peak</text><text x="310" y="162" text-anchor="middle">Aug 2026</text>
-              </svg>
-              <p class="sowhat" style="margin-top:14px"><b>So what?</b>The real rate nearly quintupled before easing, so importers need to plan margin per product, not per headline.</p>
-            </div>
-            <div class="calc" aria-labelledby="calc-h">
-              <div><p class="eyebrow">Try it · Simplified example</p><h4 id="calc-h" style="margin-top:6px">What that swing does to one product's margin</h4></div>
-              <div class="calc-in">
-                <label for="c-cost">Import cost per unit<span class="money"><i>$</i><input id="c-cost" type="number" min="1" step="1" value="400" inputmode="decimal"></span></label>
-                <label for="c-price">Selling price per unit<span class="money"><i>$</i><input id="c-price" type="number" min="1" step="1" value="600" inputmode="decimal"></span></label>
-              </div>
-              <div class="seg" role="group" aria-label="Tariff rate">
-                <button type="button" data-rate="2.2" aria-pressed="true"><small>Start</small>2.2%</button>
-                <button type="button" data-rate="10.8" aria-pressed="false"><small>Peak</small>10.8%</button>
-                <button type="button" data-rate="6.9" aria-pressed="false"><small>Aug 2026</small>6.9%</button>
-              </div>
-              <div class="calc-out">
-                <div><span>Landed cost</span><b id="c-landed">$408.80</b></div>
-                <div><span>Margin</span><b id="c-margin" class="a">31.9%</b></div>
-              </div>
-              <div class="mbar" aria-hidden="true"><span id="c-bar"></span></div>
-              <p class="fine">Duty applied to import cost only. Freight and fees left out to keep it simple.</p>
-            </div>
-          </div>
+<section class="sec" id="work">
+  <div class="wrap">
+    <div class="eyebrow mono" style="--c:var(--blue)">Public project · Transit data</div>
+    <h2 class="big split">Who the turnstiles <span class="serif">miss.</span></h2>
+    <div class="flag">
+      <div class="story rv">
+        <p>The MBTA publishes two official ridership datasets that disagree by <b>up to 23%</b> on the Blue Line. Someone asked why on the MBTA's developer forum, and the gap was blamed on growth in East Boston.</p>
+        <p>I tested that with a third, independent source. <b>Fare taps, the trip model and a 2025 rider survey all point the same way:</b> the gap comes from riders who change lines underground at four downtown hubs, where no fare gate sees them.</p>
+        <ol class="steps">
+          <li><span class="mono">01</span><span><b>Reproduced the forum's numbers exactly</b> across 6 fall seasons (2017–2025), then extended the test to all 61 gated subway stations.</span></li>
+          <li><span class="mono">02</span><span><b>Validated with the 2025 rider survey:</b> taps plus survey-reported transfers land within 3% of the model at the four downtown hubs.</span></li>
+          <li><span class="mono">03</span><span><b>Logged 16 data quality issues</b> and wrote 5 recommendations for the data owners.</span></li>
+        </ol>
+        <div class="acts">
+          <a class="btn solid mag" href="https://shre0027.github.io/mbta-ridership-gap/" target="_blank" rel="noopener">Open the project <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12L12 4M6 4h6v6"/></svg></a>
+          <a class="btn mag" href="https://github.com/Shre0027/mbta-ridership-gap" target="_blank" rel="noopener">See the code</a>
         </div>
+      </div>
+      <div>
+        <div class="panel rv" id="pState">
+          <span class="mono">State station · Blue Line · Fall 2025 weekdays</span>
+          <h4>Gate taps vs. boardings</h4>
+          <div class="hb"><span>Gate taps</span><div class="bar"><i data-w="7.4" style="background:var(--dim)"></i><em data-count="895">895</em></div></div>
+          <div class="hb"><span>Boardings</span><div class="bar"><i data-w="100" style="background:linear-gradient(90deg,rgba(76,141,255,.5),var(--blue))"></i><em data-count="12106">12,106</em></div></div>
+          <p class="sowhat"><b>So what?</b> Riders switching from the Orange Line board here without tapping. A count built from taps can't see them, so it has to guess.</p>
+        </div>
+        <div class="panel rv" id="pGap">
+          <span class="mono">Blue Line · how far the monthly figure sits below the model</span>
+          <div class="chart" role="img" aria-label="Fall 2018: 15% below. 2019: 11% below. 2023: 23% below. 2024: 22% below. 2025: 20% below.">
+            <div class="col"><i data-h="15"></i><b>−15%</b><span>2018</span></div>
+            <div class="col"><i data-h="11"></i><b>−11%</b><span>2019</span></div>
+            <div class="gap">···</div>
+            <div class="col"><i data-h="23"></i><b>−23%</b><span>2023</span></div>
+            <div class="col"><i data-h="22"></i><b>−22%</b><span>2024</span></div>
+            <div class="col"><i data-h="20"></i><b>−20%</b><span>2025</span></div>
+          </div>
+          <p class="sowhat"><b>So what?</b> The gap shows up every fall, always in the same direction. That's a rule difference, not noise.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards two">
+      <article class="card rv" style="--c:var(--orange)">
+        <div class="top"></div>
+        <div class="res">2.2% → 10.8%</div>
+        <div class="resl">the tariff rate US importers actually paid, from start to peak</div>
+        <h3>Tariff Whiplash</h3>
+        <p>When tariffs swing month to month, what does an importer really pay, and how should they manage it?</p>
+        <ul>
+          <li>Official Census trade data for <b>5,000+ products</b>, 9 documented SQL queries</li>
+          <li>A requirements document with <b>12 functional requirements</b>, process maps and business rules</li>
+          <li><b>34 tariff rules</b> encoded, matching real duty data to a median of 0.3 points</li>
+        </ul>
+        <div class="links"><a href="https://shre0027.github.io/tariff-whiplash/" target="_blank" rel="noopener">Open project ↗</a><a href="https://github.com/Shre0027/tariff-whiplash" target="_blank" rel="noopener">Code ↗</a></div>
+      </article>
+      <article class="card rv" style="--c:var(--green)">
+        <div class="top"></div>
+        <div class="res">up to 9×</div>
+        <div class="resl">price spread for the same procedure across Boston hospitals</div>
+        <h3>Boston Hospital Price Explorer</h3>
+        <p>Hospitals must publish their prices, but the files are huge and inconsistent. Can a patient compare them in one place?</p>
+        <ul>
+          <li>18 separate files, some <b>1.7 GB each</b>, turned into <b>11,000+ comparable prices</b> for 18 procedures</li>
+          <li>Requirements, a data dictionary and a decision log for every judgment call</li>
+          <li>Refreshes itself <b>every month</b>, so the comparison stays current</li>
+        </ul>
+        <div class="links"><a href="https://shre0027.github.io/boston-hospital-price-explorer/" target="_blank" rel="noopener">Open project ↗</a><a href="https://github.com/Shre0027/boston-hospital-price-explorer" target="_blank" rel="noopener">Code ↗</a></div>
       </article>
 
-      <!-- Hospital -->
-      <article class="case rv" id="hospital-prices" aria-labelledby="c3">
-        <div class="case-head"><span class="eyebrow">03 · Public project · Healthcare</span><div class="tags"><span class="tag2">SQL · DuckDB</span><span class="tag2">Python</span><span class="tag2">Data dictionary</span></div></div>
-        <div class="case-body">
-          <div class="case-text">
-            <h3 id="c3">Boston Hospital Price Explorer</h3>
-            <p class="sub">Hospitals must publish their prices, but the files are huge and inconsistent. Can a patient compare them in one place?</p>
-            <div class="ba">
-              <div class="before"><span class="k">Before</span>18 separate files, some 1.7 GB each, in different formats. Practically impossible to compare.</div>
-              <div class="after"><span class="k">After</span>11,000+ comparable prices for 18 procedures in one view, next to CMS quality ratings.</div>
-            </div>
-            <ul class="did">
-              <li><span>Wrote the requirements, a data dictionary and a decision log for every judgment call.</span></li>
-              <li><span>Answered the key questions with 12 documented SQL queries.</span></li>
-              <li><span>Set it to <b>refresh itself every month</b>, so the comparison stays current.</span></li>
-            </ul>
-            <div class="links2"><a href="https://shre0027.github.io/boston-hospital-price-explorer/">Open the project ↗</a><a href="https://github.com/Shre0027/boston-hospital-price-explorer">See the code ↗</a></div>
-          </div>
-          <div class="case-vis">
-            <div class="chart">
-              <p class="eyebrow" style="margin-bottom:10px">Same procedure, different hospital</p>
-              <svg viewBox="0 0 360 96" role="img" aria-label="Prices for the same procedure vary up to nine times across hospitals.">
-                <rect x="20" y="38" width="320" height="12" rx="6" fill="#e7e3da"/>
-                <rect class="grow" x="20" y="38" width="320" height="12" rx="6" fill="#2b45e8"/>
-                <circle cx="20" cy="44" r="8" fill="#fff" stroke="#151515" stroke-width="1.6"/>
-                <circle cx="340" cy="44" r="8" fill="#2b45e8"/>
-                <text class="v" x="20" y="22">1×</text><text class="v a" x="340" y="22" text-anchor="end">up to 9×</text>
-                <text x="20" y="80">Lowest price</text><text x="340" y="80" text-anchor="end">Highest price</text>
-              </svg>
-              <p class="sowhat" style="margin-top:14px"><b>So what?</b>Where you go can matter more than what you get done. Comparing price and quality side by side changes the decision.</p>
-            </div>
-            <div class="chart">
-              <p class="eyebrow" style="margin-bottom:10px">Commercial insurers vs Medicare</p>
-              <svg viewBox="0 0 360 96" role="img" aria-label="Commercial insurers typically pay 191 percent of the Medicare rate.">
-                <text x="0" y="26">Medicare</text>
-                <rect class="grow" x="92" y="12" width="110" height="20" rx="4" fill="#cfcabf"/>
-                <text class="v" x="212" y="28">100%</text>
-                <text x="0" y="72">Commercial</text>
-                <rect class="grow" x="92" y="58" width="210" height="20" rx="4" fill="#2b45e8"/>
-                <text class="v a" x="312" y="74">191%</text>
-              </svg>
-              <p class="sowhat" style="margin-top:14px"><b>So what?</b>Commercial plans typically pay almost twice the Medicare rate for the same care.</p>
-            </div>
-          </div>
-        </div>
-      </article>
+    </div>
+  </div>
+</section>
 
-      <!-- MBTA -->
-      <article class="case rv" id="mbta-ridership-gap" aria-labelledby="c4">
-        <div class="case-head"><span class="eyebrow">04 · Public project · Transit data</span><div class="tags"><span class="tag2">Data reconciliation</span><span class="tag2">Python · pandas</span><span class="tag2">Geospatial · GTFS</span><span class="tag2">Data quality log</span></div></div>
-        <div class="case-body">
-          <div class="case-text">
-            <h3 id="c4">Who the turnstiles miss</h3>
-            <p class="sub">The MBTA publishes two official ridership datasets that disagree by up to 23% on the Blue Line. I reconciled them with a third, independent source and an animated map of the whole subway.</p>
-            <div class="ba">
-              <div class="before"><span class="k">Before</span>A public question on the MBTA's developer forum, with the gap blamed on growth in East Boston.</div>
-              <div class="after"><span class="k">After</span>Three datasets (fare taps, the trip model and a 2025 rider survey) agree: the gap comes from riders who change lines underground at four downtown hubs, where no fare gate sees them.</div>
-            </div>
-            <ul class="did">
-              <li><span>Reconciled <b>official MBTA data across 6 fall seasons</b> (2017–2025), reproducing the forum's figures exactly, then extended the test to all 61 gated subway stations.</span></li>
-              <li><span>Validated with the <b>2025 rider survey</b>: taps plus survey-reported transfers land within 3% of the model at the four downtown hubs.</span></li>
-              <li><span>Built an exact bridge between the two numbers, stress-tested it against bus data and the MBTA's own shutdown alerts, logged <b>16 data quality issues</b> (including a split that flipped overnight on March 6, 2019), and wrote 5 recommendations for the data owners.</span></li>
-            </ul>
-            <div class="links2"><a href="https://shre0027.github.io/mbta-ridership-gap/">Open the project ↗</a><a href="https://github.com/Shre0027/mbta-ridership-gap">See the code ↗</a></div>
-          </div>
-          <div class="case-vis">
-            <div class="chart">
-              <p class="eyebrow" style="margin-bottom:10px">State station, Blue Line, Fall 2025</p>
-              <svg viewBox="0 0 360 96" role="img" aria-label="At State station, about 900 gate taps are credited to the Blue Line, but the trip model counts about 12,100 boardings.">
-                <text x="0" y="26">Gate taps</text>
-                <rect class="grow" x="92" y="12" width="16" height="20" rx="4" fill="#cfcabf"/>
-                <text class="v" x="118" y="28">895</text>
-                <text x="0" y="72">Boardings</text>
-                <rect class="grow" x="92" y="58" width="210" height="20" rx="4" fill="#2b45e8"/>
-                <text class="v a" x="312" y="74">12,106</text>
-              </svg>
-              <p class="sowhat" style="margin-top:14px"><b>So what?</b>Riders switching from the Orange Line board here without tapping. A count built from taps can't see them, so it has to guess.</p>
-            </div>
-            <div class="chart">
-              <p class="eyebrow" style="margin-bottom:10px">How far the monthly number sits below</p>
-              <svg viewBox="0 0 360 132" role="img" aria-label="On the Blue Line the monthly dataset sits below the trip model every year: 15 percent in 2018, 11 percent in 2019, 23 percent in 2023, 22 percent in 2024 and 20 percent in 2025.">
-                <line x1="20" y1="16" x2="350" y2="16" stroke="#cfcabf"/>
-                <rect class="growy" x="38" y="16" width="34" height="45" rx="4" fill="#2b45e8"/>
-                <rect class="growy" x="102" y="16" width="34" height="32" rx="4" fill="#2b45e8"/>
-                <rect class="growy" x="166" y="16" width="34" height="70" rx="4" fill="#2b45e8"/>
-                <rect class="growy" x="230" y="16" width="34" height="66" rx="4" fill="#2b45e8"/>
-                <rect class="growy" x="294" y="16" width="34" height="59" rx="4" fill="#2b45e8"/>
-                <text x="55" y="128" text-anchor="middle">2018</text><text x="119" y="128" text-anchor="middle">2019</text><text x="183" y="128" text-anchor="middle">2023</text><text x="247" y="128" text-anchor="middle">2024</text><text x="311" y="128" text-anchor="middle">2025</text>
-                <text x="55" y="76" text-anchor="middle">-15%</text><text x="119" y="63" text-anchor="middle">-11%</text><text x="183" y="101" text-anchor="middle">-23%</text><text x="247" y="97" text-anchor="middle">-22%</text><text x="311" y="90" text-anchor="middle">-20%</text>
-              </svg>
-              <p class="sowhat" style="margin-top:14px"><b>So what?</b>The gap shows up every season, always in the same direction. That's a rule difference, not noise.</p>
-            </div>
-          </div>
-        </div>
-      </article>
 
-      <div class="minis">
-        <article class="mini rv" id="sales-insights"><p class="eyebrow">Analytics · SQL · Tableau</p><h3>Sales and customer insights</h3><p>Used SQL to explore sales, customer segments and profitability, then built an interactive Tableau dashboard that answers two different questions about a segment: how much revenue it brings in, and how profitable it is.</p></article>
-        <article class="mini rv" id="operations-reporting"><p class="eyebrow">Operations · Power BI · Manufacturing</p><h3>Operations reporting at Accupack</h3><p>Worked with purchasing, stores, production and vendor teams to understand manufacturing workflows, then built Power BI dashboards and KPI reports so managers could see performance trends.</p></article>
+<section class="sec" id="skills" style="padding-top:20px">
+  <div class="wrap">
+    <div class="eyebrow mono" style="--c:var(--orange)">Toolbox</div>
+    <h2 class="big split">What I bring to <span class="serif">your team.</span></h2>
+    <div class="skills">
+      <div class="sk rv" style="--c:var(--red)"><div class="top"></div>
+        <h3>Business analysis</h3><p>Turning what people ask for into rules a team can build and deliver.</p>
+        <div class="chips"><span>Requirements gathering</span><span>User stories</span><span>Acceptance criteria</span><span>Business rules</span><span>Process mapping</span><span>Gap analysis</span><span>UAT coordination</span><span>Data dictionaries</span><span>Decision logs</span><span>Stakeholder communication</span></div>
+        <div class="seen">Seen in: <b>CVS Health · Tariff Whiplash</b></div>
+      </div>
+      <div class="sk rv" style="--c:var(--blue)"><div class="top"></div>
+        <h3>Data &amp; reporting</h3><p>Getting to the number, checking it, and showing it so it gets used.</p>
+        <div class="chips"><span>SQL</span><span>DuckDB</span><span>DBeaver</span><span>Python · pandas</span><span>Excel</span><span>Power BI</span><span>Tableau</span><span>Data validation</span><span>Reconciliation</span><span>Root cause analysis</span><span>KPI reporting</span></div>
+        <div class="seen">Seen in: <b>MBTA · Hospital prices · Accupack</b></div>
+      </div>
+      <div class="sk rv" style="--c:var(--green)"><div class="top"></div>
+        <h3>Systems &amp; tools</h3><p>Following a record through the stack, from screen to API to logs.</p>
+        <div class="chips"><span>REST APIs</span><span>Postman</span><span>Bruno</span><span>SOAPUI</span><span>ELK · Kibana</span><span>ServiceNow</span><span>Rally</span><span>Jira</span><span>Agile · Scrum</span><span>Role-based access</span><span>Git · GitHub Actions</span><span>Claude · ChatGPT</span></div>
+        <div class="seen">Seen in: <b>CVS Health · all public projects</b></div>
       </div>
     </div>
-  </section>
+    <div class="ways rv">
+      <div class="way"><span class="mono">Principle 01</span><h4>Ask what the number includes.</h4><p>Most "data problems" are definition problems. I settle the definition first.</p></div>
+      <div class="way"><span class="mono">Principle 02</span><h4>Write it down once.</h4><p>Rules, fields and decisions go in one place, so every team builds from the same page.</p></div>
+      <div class="way"><span class="mono">Principle 03</span><h4>Bring evidence, not opinions.</h4><p>Every recommendation comes with the query, the records or the log line behind it.</p></div>
+    </div>
+  </div>
+</section>
 
-  <!-- HOW I WORK -->
-  <section id="how" aria-labelledby="how-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">How I work</p>
-        <h2 id="how-h">I map the process before I touch the data.</h2>
-        <p class="lede">A process map shows who does what and where things can go wrong. Flip between before and after to see what one clear business rule changes.</p>
+<section class="lsec" id="line" aria-labelledby="line-h">
+  <div class="pin">
+    <div class="wrap lhead">
+      <div>
+        <div class="eyebrow mono" style="--c:var(--green)">My line</div>
+        <h2 class="big split" id="line-h">Every stop <span class="serif">counts.</span></h2>
       </div>
-      <div class="pm rv">
-        <div class="pm-top">
-          <p class="eyebrow">Process map · Device status review · Illustrative</p>
-          <div class="seg" role="group" aria-label="Process map state">
-            <button type="button" data-pm="before" aria-pressed="false">Before</button>
-            <button type="button" data-pm="after" aria-pressed="true">After</button>
-          </div>
-        </div>
-        <div class="pm-stage">
-          <svg class="state before hide" viewBox="0 0 760 270" role="img" aria-label="Before: a store user and a central user both read a device count from the dashboard, but each assumes a different definition, so the numbers conflict and the question goes unanswered.">
-            <rect x="0" y="0" width="760" height="90" fill="#faf8f3"/><rect x="0" y="90" width="760" height="90" fill="#fff"/><rect x="0" y="180" width="760" height="90" fill="#faf8f3"/>
-            <text class="lane" x="14" y="50">STORE USER</text><text class="lane" x="14" y="140">DASHBOARD</text><text class="lane" x="14" y="230">CENTRAL USER</text>
-            <rect class="box" x="150" y="25" width="150" height="40" rx="8"/><text x="225" y="50" text-anchor="middle">Sees "3 devices"</text>
-            <rect class="box" x="150" y="205" width="150" height="40" rx="8"/><text x="225" y="230" text-anchor="middle">Sees "5 devices"</text>
-            <rect class="box q" x="350" y="115" width="170" height="40" rx="8"/><text x="435" y="140" text-anchor="middle">Which count is right?</text>
-            <path class="ln bad" d="M300 45 H325 V135 H350"/><path class="ln bad" d="M300 225 H325 V135"/>
-            <rect class="box q" x="570" y="25" width="160" height="40" rx="8"/><text x="650" y="50" text-anchor="middle">Raises a ticket</text>
-            <rect class="box q" x="570" y="205" width="160" height="40" rx="8"/><text x="650" y="230" text-anchor="middle">Disputes the report</text>
-            <path class="ln bad" d="M520 135 H545 V45 H570"/><path class="ln bad" d="M520 135 H545 V225 H570"/>
-          </svg>
-          <svg class="state after" viewBox="0 0 760 270" role="img" aria-label="After: a written business rule defines that each count covers the devices in the user's own scope and filter, so the store user and central user each see a correct, explained number.">
-            <rect x="0" y="0" width="760" height="90" fill="#faf8f3"/><rect x="0" y="90" width="760" height="90" fill="#fff"/><rect x="0" y="180" width="760" height="90" fill="#faf8f3"/>
-            <text class="lane" x="14" y="50">STORE USER</text><text class="lane" x="14" y="140">DASHBOARD</text><text class="lane" x="14" y="230">CENTRAL USER</text>
-            <rect class="box ok" x="150" y="112" width="210" height="46" rx="8"/><text x="255" y="132" text-anchor="middle" style="font-weight:600">Rule: count = devices in</text><text x="255" y="149" text-anchor="middle" style="font-weight:600">the user's scope + filter</text>
-            <rect class="box" x="430" y="25" width="170" height="40" rx="8"/><text x="515" y="50" text-anchor="middle">"3 devices in Store A"</text>
-            <rect class="box" x="430" y="205" width="170" height="40" rx="8"/><text x="515" y="230" text-anchor="middle">"5 devices, all stores"</text>
-            <path class="ln good" d="M360 135 H395 V45 H430"/><path class="ln good" d="M360 135 H395 V225 H430"/>
-            <rect class="box ok" x="630" y="25" width="110" height="40" rx="8"/><text x="685" y="50" text-anchor="middle">Trusts it</text>
-            <rect class="box ok" x="630" y="205" width="110" height="40" rx="8"/><text x="685" y="230" text-anchor="middle">Trusts it</text>
-            <path class="ln good" d="M600 45 H630"/><path class="ln good" d="M600 225 H630"/>
-          </svg>
-        </div>
-        <div class="pm-cap">
-          <p><b>Before:</b> the same word means two things, so people argue about the number instead of acting on it.</p>
-          <p><b>After:</b> one written rule. Each person sees a number that is correct for them, and knows why.</p>
-        </div>
+      <p>From school in Nashik to retail systems in Boston. Scroll to ride the line.</p>
+    </div>
+    <div class="track" id="track">
+      <div class="rail" id="rail"><i></i><b></b></div>
+      <div class="stop" style="--c:#a7adb9"><div class="dotx"></div>
+        <div class="when mono">School years</div>
+        <h3>St. Xavier's High School</h3>
+        <div class="org">Where it all began</div>
+        <p>Grew up and went to school in Nashik, Maharashtra.</p>
+        <span class="where">Nashik, India</span>
       </div>
-
-      <div class="deliv">
-        <div class="d rv"><span class="ic"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></span><h3>Requirements docs</h3><p>Functional requirements, business rules and acceptance criteria engineers can build from.</p></div>
-        <div class="d rv"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="5" rx="1"/><rect x="14" y="15" width="7" height="5" rx="1"/><path d="M6.5 9v4.5h11V15"/></svg></span><h3>Process maps</h3><p>Who does what, in what order, and where it can break. Before and after.</p></div>
-        <div class="d rv"><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg></span><h3>Data dictionaries</h3><p>Every field defined once, in plain words, so a report means the same thing to everyone.</p></div>
-        <div class="d rv"><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></span><h3>Dashboards</h3><p>Power BI and Tableau views built around the question the reader is asking.</p></div>
+      <div class="stop" style="--c:var(--green)"><div class="dotx"></div>
+        <div class="when mono">2018 – 2021</div>
+        <h3>Mechanical Engineering</h3>
+        <div class="org">BE · Sandip University</div>
+        <p>Engineering first: how processes, parts and systems fit together. The analytics came next.</p>
+        <span class="where">Nashik, India</span>
+      </div>
+      <div class="stop" style="--c:var(--orange)"><div class="dotx"></div>
+        <div class="when mono">Nov 2021 – Nov 2022</div>
+        <h3>Business Analyst Intern</h3>
+        <div class="org">Accupack Engineering · 12-month internship</div>
+        <p>Mapped procurement, inventory and production workflows to find reporting gaps. Built Power BI dashboards and KPI reports.</p>
+        <span class="where">Mumbai, India</span>
+      </div>
+      <div class="stop" style="--c:var(--red)"><div class="dotx"></div>
+        <div class="when mono">2023 – 2024</div>
+        <h3>MS, Business Analytics</h3>
+        <div class="org">University of Massachusetts Boston</div>
+        <p>Analytics with a supply chain focus.</p>
+        <span class="where">Boston, MA</span>
+      </div>
+      <div class="stop" style="--c:var(--blue)"><div class="dotx"></div>
+        <div class="when mono">Jun 2025 – Present</div>
+        <h3>Technical Analyst</h3>
+        <div class="org">Gardner Resources Consulting · supporting CVS Health</div>
+        <p>Retail technology dashboards across about 9,000 stores. I turn user stories into business rules, trace issues across UI, APIs, SQL and logs, and coordinate seven teams.</p>
+        <span class="where">Boston, MA</span>
+      </div>
+      <div class="stop next" style="--c:var(--ink)"><div class="dotx"></div>
+        <div class="when mono">Next stop</div>
+        <h3>Business Analyst · BSA · Data Analyst</h3>
+        <div class="org">Your team?</div>
+        <p>Remote, hybrid or onsite, anywhere in the US. Open to relocation.</p>
+        <a class="where" href="#contact" style="--c:var(--orange)">Let's talk →</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ROLE FIT -->
-  <section id="fit" aria-labelledby="fit-h">
-    <div class="wrap">
-      <div class="fit rv">
-        <p class="eyebrow" style="color:#9a978f">For hiring managers</p>
-        <h2 id="fit-h" style="margin-top:12px">Hiring for one of these roles?</h2>
-        <p class="lede" style="margin-top:14px">Pick the role. You'll see the three pieces of evidence that matter most for it.</p>
-        <div class="seg" role="group" aria-label="Role">
-          <button type="button" data-role="ba" aria-pressed="true">Business Analyst</button>
-          <button type="button" data-role="bsa" aria-pressed="false">Business Systems Analyst</button>
-          <button type="button" data-role="da" aria-pressed="false">Data Analyst</button>
-        </div>
-        <div class="fit-grid" id="fit-grid" aria-live="polite"></div>
+<section class="sec" id="about">
+  <div class="wrap about">
+    <div class="pic rv"><img src="shreyas.jpg" width="720" height="774" alt="Shreyas Tayde, smiling, in a navy suit" loading="lazy"><span class="badge">Boston, MA</span></div>
+    <div class="rv">
+      <div class="eyebrow mono" style="--c:var(--red)">About</div>
+      <h2>Hi, I'm <span class="serif">Shreyas.</span></h2>
+      <p class="lead">My favorite question: when someone points to a number on a screen, can we explain exactly what it includes?</p>
+      <p>Answering it can mean talking a business rule through with a product owner, running a SQL query, or looking at the same workflow from a store user's point of view. My path started in mechanical engineering, moved through operations reporting in Mumbai, and led to business analytics at UMass Boston and retail technology work for CVS Health stores.</p>
+      <div class="facts">
+        <span><b>From</b> Nashik, India</span>
+        <span><b>Speaks</b> English &amp; Marathi</span>
+        <span><b>Started as</b> a mechanical engineer</span>
+        <span><b>Trains</b> push / pull / legs at the gym</span>
+        <span><b>Weekend</b> coastal drives, Salem a favorite</span>
+        <span><b>Builds</b> side projects with AI tools</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- EXPERIENCE -->
-  <section id="experience" aria-labelledby="exp-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">Experience</p>
-        <h2 id="exp-h">From the factory floor to retail systems.</h2>
-      </div>
-      <div class="tline">
-        <div class="job rv">
-          <span class="dot" aria-hidden="true"></span>
-          <p class="when">Jun 2025 – Present</p>
-          <div class="what">
-            <h3>Jr. Technical Analyst, supporting CVS Health</h3>
-            <p class="org">Gardner Resources Consulting · Boston, MA</p>
-            <ul>
-              <li>Work with product owners and engineers on retail technology dashboards used by store and central teams across about 9,000 stores.</li>
-              <li>Interpret user stories and acceptance criteria to clarify business rules, including how Store and Central workflows should differ.</li>
-              <li>Connect what users see on screen with API responses, SQL records and logs, and bring open questions to the product owner as clear decisions.</li>
-              <li>Coordinate across seven teams, from product owners and engineers to infrastructure and store operations, to raise risks early.</li>
-              <li>Built and maintain a status tracker that gives leadership one view of what's done, what's open and who owns each question.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="job past rv">
-          <span class="dot" aria-hidden="true"></span>
-          <p class="when">2023 – 2024</p>
-          <div class="what">
-            <h3>MS, Business Analytics</h3>
-            <p class="org">University of Massachusetts Boston · Supply Chain focus</p>
-          </div>
-        </div>
-        <div class="job past rv">
-          <span class="dot" aria-hidden="true"></span>
-          <p class="when">Nov 2021 – Nov 2022</p>
-          <div class="what">
-            <h3>Business Analyst Intern</h3>
-            <p class="org">Accupack Engineering Pvt. Ltd. · Mumbai, India · 12-month internship</p>
-            <ul>
-              <li>Analyzed procurement, inventory, production and supply-chain workflows to find reporting gaps, manual follow-ups and bottlenecks.</li>
-              <li>Gathered reporting requirements from purchasing, stores, production and vendor teams; built Power BI dashboards, KPI reports and Excel trackers.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="job past rv" style="padding-bottom:0">
-          <span class="dot" aria-hidden="true"></span>
-          <p class="when">2018 – 2021</p>
-          <div class="what">
-            <h3>BE, Mechanical Engineering</h3>
-            <p class="org">Sandip University, India</p>
-          </div>
-        </div>
+<section class="contact" id="contact" aria-labelledby="c-h">
+  <div class="wrap">
+    <div class="eyebrow mono">Contact</div>
+    <h2 class="talk" id="c-h" aria-label="Let's talk."><span class="wd"><span>L</span><span>e</span><span>t</span><span>'</span><span>s</span></span><span class="wd"><span>t</span><span>a</span><span>l</span><span>k</span><span style="color:var(--orange)">.</span></span></h2>
+    <div class="cgrid">
+      <p>Looking for a business analyst who understands the systems underneath? I'd be happy to hear from you.</p>
+      <div class="clinks">
+        <button type="button" id="copy" data-email="shreyaastayde@gmail.com">shreyaastayde@gmail.com <span class="mono">Copy</span></button>
+        <a href="https://www.linkedin.com/in/shreyastayde" target="_blank" rel="noopener">LinkedIn <span class="mono">↗</span></a>
+        <a href="Shreyas_Tayde_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF) <span class="mono">↗</span></a>
+        <a href="https://github.com/Shre0027" target="_blank" rel="noopener">GitHub <span class="mono">↗</span></a>
       </div>
     </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" aria-labelledby="sk-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">Skills in practice</p>
-        <h2 id="sk-h">What each skill looks like on a normal day.</h2>
-      </div>
-      <div class="skills">
-        <div class="sk rv"><h3>Requirements and business rules</h3><p>I turn a user story into concrete questions about roles, data scope and expected behavior, then settle the open points with the product owner.</p><div class="chips"><span class="chip">User stories</span><span class="chip">Acceptance criteria</span><span class="chip">Business rules</span><span class="chip">Process mapping</span><span class="chip">Gap analysis</span></div></div>
-        <div class="sk rv"><h3>Data analysis and reporting</h3><p>I write SQL, build dashboards, and use Python when the data gets big.</p><div class="chips"><span class="chip">SQL</span><span class="chip">DuckDB</span><span class="chip">DBeaver</span><span class="chip">Excel</span><span class="chip">Power BI</span><span class="chip">Tableau</span><span class="chip">Python · pandas</span></div></div>
-        <div class="sk rv"><h3>Systems understanding</h3><p>I follow a record across systems so I can explain how the pieces connect.</p><div class="chips"><span class="chip">REST APIs · Postman, Bruno</span><span class="chip">ELK / Kibana</span><span class="chip">ServiceNow</span><span class="chip">Role-based access</span><span class="chip">Git · GitHub Actions</span></div></div>
-        <div class="sk rv"><h3>Stakeholder communication</h3><p>I write up what users expect versus what they see, who is affected, and what the team needs to decide.</p><div class="chips"><span class="chip">Rally</span><span class="chip">Agile · Scrum</span><span class="chip">Data dictionaries</span><span class="chip">Decision logs</span></div></div>
-      </div>
+    <div class="foot">
+      <span>© 2026 Shreyas Tayde</span>
+      <span>Boston, MA · <b id="clock">--:--</b> local time</span>
     </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" aria-labelledby="ab-h">
-    <div class="wrap">
-      <div class="about">
-        <div class="rv">
-          <p class="eyebrow">About me</p>
-          <h2 id="ab-h" style="margin:12px 0 26px">Hi, I'm Shreyas.</h2>
-          <img class="about-pic" src="shreyas.jpg" width="720" height="774" alt="" loading="lazy">
-          <div class="facts">
-            <div class="fact"><span>From</span><span>Nashik, India. Now in Boston.</span></div>
-            <div class="fact"><span>Off the clock</span><span>Cricket, slice-of-life anime, and short drives along the Boston waterfront.</span></div>
-            <div class="fact"><span>Ice-breaker</span><span>I used to captain a cricket team, so cricket is always an easy way to start a conversation.</span></div>
-            <div class="fact"><span>Languages</span><span>English and Marathi</span></div>
-          </div>
-        </div>
-        <div class="about-text rv">
-          <p class="big">One of my favorite questions: when someone points to a number on a screen, can we explain exactly what it includes?</p>
-          <p>Answering it can mean talking through a business rule with a product owner, running a SQL query, or looking at the same workflow from a store user's point of view.</p>
-          <p>My path started in mechanical engineering. At Accupack in Mumbai, I worked with production data and built reports for operations teams, and got curious about how people decide what to measure. That led me to a master's in business analytics at UMass Boston, and then to retail technology work for CVS Health stores.</p>
-          <div class="path">
-            <div><b>Engineering</b><span>Sandip University</span></div>
-            <div><b>Operations</b><span>Accupack, Mumbai</span></div>
-            <div><b>Analytics</b><span>UMass Boston</span></div>
-            <div><b>Retail systems</b><span>CVS Health stores</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="answers" aria-labelledby="qa-h">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <p class="eyebrow">Quick answers</p>
-        <h2 id="qa-h">Questions recruiters usually ask.</h2>
-      </div>
-      <div class="qa rv">
-        <div class="qa-qs" role="group" aria-label="Questions">
-          <button type="button" data-q="0" aria-pressed="true">What roles are you looking for?</button>
-          <button type="button" data-q="1" aria-pressed="false">Where can you work?</button>
-          <button type="button" data-q="2" aria-pressed="false">What are your strongest tools?</button>
-          <button type="button" data-q="3" aria-pressed="false">Which industries do you know?</button>
-          <button type="button" data-q="4" aria-pressed="false">When can you start?</button>
-        </div>
-        <div class="qa-a" aria-live="polite">
-          <p class="eyebrow" id="qa-q">What roles are you looking for?</p>
-          <p class="qa-text" id="qa-text"></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="contact" aria-labelledby="c-h">
-    <div class="wrap">
-      <p class="eyebrow">Contact</p>
-      <h2 id="c-h" style="margin-top:14px">Let's talk about <span class="accent">your data.</span></h2>
-      <p class="lede" style="margin-top:22px">Looking for a business analyst who understands the systems underneath? I'd be happy to hear from you.</p>
-      <div class="c-row">
-        <div class="c"><span>Email</span><a href="mailto:shreyaastayde@gmail.com">shreyaastayde@gmail.com</a><button class="copy" id="copy" type="button">Copy email</button></div>
-        <div class="c"><span>LinkedIn</span><a href="https://www.linkedin.com/in/shreyastayde">linkedin.com/in/shreyastayde ↗</a></div>
-        <div class="c"><span>Résumé</span><a href="Shreyas_Tayde_Resume.pdf">One-page PDF ↗</a></div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 </main>
-
-<footer>
-  <div class="wrap"><span>Shreyas Tayde · Boston, MA</span><span><a href="https://github.com/Shre0027" style="text-decoration:none">GitHub ↗</a></span></div>
-</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
-(function(){
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+(()=>{
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* header border on scroll */
-  const hdr=document.getElementById('hdr');
-  const onS=()=>hdr.classList.toggle('scrolled', window.scrollY>8);
-  window.addEventListener('scroll', onS, {passive:true}); onS();
+// split hero name into letters
+let d=0;
+document.querySelectorAll('[data-split]').forEach(w=>{
+  const frag=document.createDocumentFragment();
+  [...w.childNodes].forEach(n=>{
+    if(n.nodeType===3){[...n.textContent].forEach(c=>{const s=document.createElement('span');s.className='ch';s.textContent=c;s.style.animationDelay=(.15+d++*.05)+'s';frag.appendChild(s);});}
+    else{n.classList.add('ch');n.style.animationDelay=(.15+d++*.05)+'s';frag.appendChild(n);}
+  });
+  w.textContent='';w.appendChild(frag);
+});
 
-  /* count-up (numbers are already correct in the HTML) */
-  if(!reduce){
-    document.querySelectorAll('[data-count]').forEach((el,i)=>{
-      const end=+el.dataset.count, pre=el.dataset.prefix||'', suf=el.dataset.suffix||'';
-      const start=performance.now()+600+i*140, dur=1400;
-      (function tick(now){ const k=Math.min(1,Math.max(0,(now-start)/dur)), e=1-Math.pow(1-k,3);
-        el.textContent=pre+Math.round(end*e).toLocaleString()+suf; if(k<1) requestAnimationFrame(tick); })(performance.now());
-    });
+// split section headings into words
+document.querySelectorAll('.split').forEach(h=>{
+  const out=[];
+  h.childNodes.forEach(n=>{
+    if(n.nodeType===3){n.textContent.split(/(\s+)/).forEach(t=>{ if(!t)return; if(/^\s+$/.test(t)){out.push(document.createTextNode(' '));return;} const w=document.createElement('span');w.className='w';const i=document.createElement('span');i.textContent=t;w.appendChild(i);out.push(w);});}
+    else{const w=document.createElement('span');w.className='w';const i=document.createElement('span');i.appendChild(n.cloneNode(true));w.appendChild(i);out.push(w);}
+  });
+  h.textContent='';out.forEach((n,k)=>{if(n.firstChild&&n.firstChild.style)n.firstChild.style.transitionDelay=(k*.04)+'s';h.appendChild(n);});
+});
+
+// count-up
+const fmt=n=>n.toLocaleString('en-US');
+function count(el){
+  const to=+el.dataset.count, pre=el.dataset.pre||'', suf=el.dataset.suf||'';
+  if(RM){el.textContent=pre+fmt(to)+suf;return;}
+  const t0=performance.now(),dur=1600;
+  (function f(t){const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,4);el.textContent=pre+fmt(Math.round(to*e))+suf;if(p<1)requestAnimationFrame(f);})(t0);
+}
+
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;
+  const el=e.target; el.classList.add('in'); io.unobserve(el);
+  el.querySelectorAll?.('[data-count]').forEach(count);
+  el.querySelectorAll?.('[data-w]').forEach(b=>b.style.width=b.dataset.w+'%');
+  el.querySelectorAll?.('[data-h]').forEach(b=>b.style.height=(b.dataset.h/25*100)+'%');
+}),{threshold:.18,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv,.split').forEach(el=>io.observe(el));
+const tl=document.getElementById('tline');new IntersectionObserver(es=>es.forEach(e=>tl.classList.toggle('go',e.isIntersecting&&!RM)),{threshold:.4}).observe(tl);
+
+// nav hide/show
+const nav=document.getElementById('nav');let ly=scrollY;
+addEventListener('scroll',()=>{const y=scrollY;nav.classList.toggle('solid',y>40);nav.classList.toggle('hide',y>ly&&y>300);ly=y;},{passive:true});
+
+// cursor glow + card spotlight + magnetic buttons
+const glow=document.querySelector('.glow');
+if(matchMedia('(hover:hover)').matches&&!RM){
+  let gx=-999,gy=-999,cx=gx,cy=gy;
+  addEventListener('pointermove',e=>{gx=e.clientX;gy=e.clientY;},{passive:true});
+  (function loop(){cx+=(gx-cx)*.12;cy+=(gy-cy)*.12;glow.style.transform=`translate3d(${cx}px,${cy}px,0)`;requestAnimationFrame(loop);})();
+  document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px');}));
+  document.querySelectorAll('.mag').forEach(b=>{
+    b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.25}px,${(e.clientY-r.top-r.height/2)*.35}px)`;});
+    b.addEventListener('pointerleave',()=>{b.style.transform='';});
+  });
+}
+
+// career line: pinned horizontal ride (desktop), vertical fill (mobile)
+const sec=document.getElementById('line'),track=document.getElementById('track'),rail=document.getElementById('rail'),fill=rail.querySelector('i'),train=rail.querySelector('b'),stops=[...track.querySelectorAll('.stop')];
+let over=0,wide=false;
+function size(){
+  wide=innerWidth>900;
+  delete fill.dataset.g;
+  if(wide){over=Math.max(0,track.scrollWidth-innerWidth);sec.style.height=(innerHeight+over+innerHeight*.35)+'px';}
+  else{sec.style.height='';}
+  ride();
+}
+function ride(){
+  const r=sec.getBoundingClientRect();
+  if(wide){
+    const span=sec.offsetHeight-innerHeight, p=Math.min(1,Math.max(0,-r.top/span));
+    track.style.transform=`translate3d(${-p*over}px,0,0)`;
+    const firstX=stops[0].offsetLeft+17,lastX=stops[stops.length-1].offsetLeft+17;
+    const x=firstX+(lastX-firstX)*Math.min(1,p*1.08);
+    const railLeft=rail.offsetLeft;
+    fill.style.width=(x-railLeft)+'px'; train.style.left=(x-railLeft)+'px';
+    if(!fill.dataset.g){const xs=stops.map(s=>s.offsetLeft+17-railLeft),cs=stops.map(s=>getComputedStyle(s).getPropertyValue('--c').trim());let g=[];for(let k=1;k<xs.length;k++){const c=k===xs.length-1?'rgba(241,238,232,.45)':cs[k];g.push(`${c} ${xs[k-1]}px ${xs[k]}px`);}fill.style.backgroundImage=`linear-gradient(90deg,${cs[1]} 0 ${xs[0]}px,${g.join(',')})`;fill.style.backgroundSize=`${xs[xs.length-1]+40}px 100%`;fill.dataset.g=1;}
+    stops.forEach(s=>s.classList.toggle('on',s.offsetLeft+17<=x+2));
+  }else{
+    const tr=track.getBoundingClientRect(), mid=innerHeight*.6;
+    const lastY=stops[stops.length-1].offsetTop+17, h=Math.min(lastY,Math.max(0,mid-tr.top));
+    rail.style.setProperty('--h',h+'px');
+    if(!fill.dataset.g){const ys=stops.map(s=>s.offsetTop+17),cs=stops.map(s=>getComputedStyle(s).getPropertyValue('--c').trim());let g=[];for(let k=1;k<ys.length;k++){const c=k===ys.length-1?'rgba(241,238,232,.45)':cs[k];g.push(`${c} ${ys[k-1]}px ${ys[k]}px`);}fill.style.backgroundImage=`linear-gradient(180deg,${cs[0]} 0 ${ys[0]}px,${g.join(',')},rgba(241,238,232,.45) ${ys[ys.length-1]}px)`;fill.style.backgroundSize=`100% ${tr.height}px`;fill.style.width='';fill.dataset.g=1;}
+    stops.forEach(s=>s.classList.toggle('on',s.getBoundingClientRect().top<mid));
   }
+}
+addEventListener('scroll',ride,{passive:true});addEventListener('resize',size);
+document.fonts?.ready.then(size); size();
 
-  /* scroll reveals: add motion only as things enter; never hide content */
-  const rv=[...document.querySelectorAll('.rv')], cases=[...document.querySelectorAll('.case')];
-  if(reduce || !('IntersectionObserver' in window)){ cases.forEach(c=>c.classList.add('in')); }
-  else{
-    const io=new IntersectionObserver(es=>es.forEach(en=>{
-      if(!en.isIntersecting) return;
-      const t=en.target;
-      if(t.getBoundingClientRect().top > 40) t.classList.add('in-anim');
-      if(t.classList.contains('case')) t.classList.add('in');
-      io.unobserve(t);
-    }),{threshold:.12, rootMargin:'0px 0px -8% 0px'});
-    rv.forEach(el=>io.observe(el));
-    setTimeout(()=>cases.forEach(c=>c.classList.add('in')), 8000);
-  }
+// copy email
+const toast=document.getElementById('toast'),cp=document.getElementById('copy');
+cp.addEventListener('click',async()=>{
+  const e=cp.dataset.email;
+  try{await navigator.clipboard.writeText(e);toast.textContent='Email copied. Talk soon!';}
+  catch{location.href='mailto:'+e;return;}
+  toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
+});
 
-  /* device count demo */
-  const DATA=[
-    {id:'REG-A01',loc:'Store A',type:'Register',status:'online'},
-    {id:'SCN-A02',loc:'Store A',type:'Scanner',status:'online'},
-    {id:'PRN-A03',loc:'Store A',type:'Printer',status:'offline'},
-    {id:'REG-B01',loc:'Store B',type:'Register',status:'online'},
-    {id:'PRN-B02',loc:'Store B',type:'Printer',status:'offline'}];
-  const st={scope:'A',filter:'all'}, box=document.getElementById('records'), rows={};
-  DATA.forEach(d=>{ const el=document.createElement('div'); el.className='rec';
-    el.innerHTML=`<span class="id">${d.id}</span><span>${d.loc}</span><span>${d.type}</span><span class="st ${d.status==='online'?'on':'off'}">${d.status==='online'?'Online':'Offline'}</span>`;
-    box.appendChild(el); rows[d.id]=el; });
-  const tot=document.getElementById('r-total'); let shown=0;
-  const vis=d=>(st.scope==='ALL'||d.loc==='Store A')&&(st.filter==='all'||d.status===st.filter);
-  function anim(to){ if(reduce){tot.textContent=to;shown=to;return;} const f=shown,s=performance.now();
-    (function step(n){const k=Math.min(1,(n-s)/450);tot.textContent=Math.round(f+(to-f)*k);if(k<1)requestAnimationFrame(step);else shown=to;})(s); }
-  function render(first){ let n=0;
-    DATA.forEach(d=>{const el=rows[d.id],on=vis(d),was=el.classList.contains('out'); el.classList.toggle('out',!on);
-      if(on){n++; if(was&&!first&&!reduce){el.classList.add('new');setTimeout(()=>el.classList.remove('new'),900);}}});
-    document.getElementById('r-scope').textContent= st.scope==='ALL'?'All stores (central user)':'Store A (store user)';
-    document.getElementById('r-filter').textContent= st.filter[0].toUpperCase()+st.filter.slice(1);
-    if(first){tot.textContent=n;shown=n;} else anim(n); }
-  function group(attr,cb){ const bs=document.querySelectorAll('['+attr+']');
-    bs.forEach(b=>b.addEventListener('click',()=>{ bs.forEach(x=>x.setAttribute('aria-pressed', x===b?'true':'false')); cb(b.getAttribute(attr)); })); }
-  group('data-scope',v=>{st.scope=v;render(false);});
-  group('data-filter',v=>{st.filter=v;render(false);});
-  render(true);
-
-  /* tariff calculator */
-  const cost=document.getElementById('c-cost'), price=document.getElementById('c-price'); let rate=2.2;
-  const fmt=n=>'$'+n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
-  function calc(){ const c=Math.max(0,+cost.value||0), p=Math.max(0,+price.value||0), landed=c*(1+rate/100), m=p>0?(p-landed)/p*100:0;
-    document.getElementById('c-landed').textContent=fmt(landed);
-    document.getElementById('c-margin').textContent= p>0? m.toFixed(1)+'%':'Enter a price';
-    document.getElementById('c-bar').style.width=Math.max(0,Math.min(100,m))+'%'; }
-  group('data-rate',v=>{rate=+v;calc();});
-  cost.addEventListener('input',calc); price.addEventListener('input',calc); calc();
-
-  /* process map before/after */
-  const sB=document.querySelector('.state.before'), sA=document.querySelector('.state.after');
-  group('data-pm',v=>{ sB.classList.toggle('hide', v!=='before'); sA.classList.toggle('hide', v!=='after'); });
-
-  /* role fit */
-  const FIT={
-    ba:[{k:'1 rule',h:'Turns vague questions into one clear business rule',p:"Store vs central device counts: I define what each role's total should include before anything is built.",a:'#device-count',l:'See the story'},
-        {k:'12',h:'Functional requirements in a written requirements document',p:"Plus process maps and business rules for an importer's tariff and refund tracker.",a:'#tariff-whiplash',l:'See Tariff Whiplash'},
-        {k:'7',h:'Teams I work across',p:'Product owners, engineers, infrastructure and store operations, on dashboards for about 9,000 stores.',a:'#experience',l:'See experience'}],
-    bsa:[{k:'4 layers',h:'Follows one record from screen to source',p:'UI, REST API, SQL database and logs, using Bruno, Postman, DBeaver and Kibana.',a:'#skills',l:'See skills'},
-        {k:'2 roles',h:'Defines what each user role should see',p:'Store and central users, role-based access, and how their workflows should differ.',a:'#device-count',l:'See the story'},
-        {k:'~9,000',h:'Stores on the retail systems I work on',p:'Enterprise dashboards for device status and incidents, alongside ServiceNow and Rally.',a:'#experience',l:'See experience'}],
-    da:[{k:'11,000+',h:'Prices made comparable from messy public files',p:'18 hospitals, files up to 1.7 GB, 12 documented SQL queries, refreshed every month.',a:'#hospital-prices',l:'See the project'},
-        {k:'5,000+',h:'Products analyzed from official Census data',p:'9 documented SQL queries showing what importers actually paid as tariffs swung.',a:'#tariff-whiplash',l:'See Tariff Whiplash'},
-        {k:'57,000+',h:'Rows reconciled across reports at work',p:'Plus Power BI and Tableau dashboards built for operations and sales questions.',a:'#sales-insights',l:'See dashboards'}]};
-  const grid=document.getElementById('fit-grid');
-  const show=r=>grid.innerHTML=FIT[r].map((c,i)=>`<div class="fc" style="--d:${i*.08}s"><span class="k">${c.k}</span><h3>${c.h}</h3><p>${c.p}</p><a href="${c.a}">${c.l} →</a></div>`).join('');
-  group('data-role',show); show('ba');
-
-  /* quick answers */
-  const A=["Business Analyst, Business Systems Analyst, Systems Analyst and Data Analyst roles: work where I connect what the business needs with the systems and data underneath.",
-    "Anywhere in the US: remote, hybrid or onsite. I'm based in Boston and open to relocation.",
-    "SQL (DBeaver, DuckDB), Excel, Power BI and Tableau for data. Rally, ServiceNow, Kibana and REST APIs (Postman, Bruno) for systems work. Python and pandas for bigger analysis.",
-    "Retail technology through my CVS Health client work, manufacturing and supply chain from Accupack, and public projects in healthcare pricing, trade policy and transit data.",
-    "With two weeks' notice."];
-  const qs=[...document.querySelectorAll('[data-q]')], qEl=document.getElementById('qa-q'), tEl=document.getElementById('qa-text'); let tm=null;
-  function say(i){ clearInterval(tm); qEl.textContent=qs[i].textContent; const full=A[i];
-    if(reduce){tEl.textContent=full;return;} let n=0; tEl.innerHTML='<span class="caret"></span>';
-    tm=setInterval(()=>{ n=Math.min(full.length,n+3); tEl.innerHTML=full.slice(0,n)+'<span class="caret"></span>'; if(n>=full.length) clearInterval(tm); },16); }
-  qs.forEach((b,i)=>b.addEventListener('click',()=>{ qs.forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false')); say(i); }));
-  tEl.textContent=A[0];
-
-  /* copy email */
-  const cb=document.getElementById('copy');
-  cb.addEventListener('click', async()=>{ try{ await navigator.clipboard.writeText('shreyaastayde@gmail.com'); cb.textContent='Copied'; }catch(e){ cb.textContent='Select the address above'; } setTimeout(()=>cb.textContent='Copy email',2200); });
+// Boston clock
+const clock=document.getElementById('clock');
+const tick=()=>{clock.textContent=new Date().toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'});};
+tick();setInterval(tick,20000);
 })();
 </script>
 </body>
